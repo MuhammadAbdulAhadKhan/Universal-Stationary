@@ -1,0 +1,6500 @@
+ .header-logo a.logo-title {
+      color: #000000;
+    }
+    
+    .header-top {
+        background-color: #fad9d9;
+        color: #000000;
+    }
+
+    
+    
+    .header-top a {
+        color: #000000;
+    }
+    
+    .header-top .top-message p a:hover {
+        border-bottom-color: #000000;
+    }
+    
+    .cart-icon .cartCount {
+        background-color: #e95144;
+        color: #ffffff;
+    }
+    
+    .logo-img {
+        display: block;
+    }
+    
+    .header-mb .logo-img img,
+    .logo-fixed .logo-img img {
+        max-height: 50px;
+    }
+    
+    .header-pc .logo-img img {
+        max-height: 35px;
+    }
+
+    .header-03 .search-form .search-bar {        
+        background-color: #ffffff;
+        border: 1px solid #ebebeb;
+    }
+
+    .header-03 .search-form .search-bar .input-group-field {
+        color: #848484;
+    }
+
+    .header-03 .search-form .search-bar .input-group-field::-webkit-input-placeholder {
+        color: #848484;
+    }
+
+    .header-03 .search-form .search-bar .input-group-field::-moz-placeholder {
+        color: #848484;
+    }
+
+    .header-03.search-form .search-bar .input-group-field:-ms-input-placeholder {
+        color: #848484;
+    }
+
+    .header-03 .search-form .search-bar .input-group-field:-moz-placeholder {
+        color: #848484;
+    } 
+
+    
+
+    @media (min-width:1200px) {        
+        .header-03 .header-bottom,
+        .lang-currency-groups .dropdown-menu {
+            background-color: #ffffff;
+        }
+
+        .header-03 .header-bottom .bg_header-panel-top {
+            background-color: #fdf5f5;
+        }        
+
+        .header-03 .header-bottom,
+        .header-03 .header-bottom .acc-links,
+        .header-03 .lang-currency-groups .dropdown-label {            
+            color: #3c3c3c;
+        }
+
+        .header-03 .header-bottom .social-icons a {
+            color: #232323 !important;
+        }
+
+        .header-03 .header-bottom  .wishlist,
+        .header-03 .header-bottom  .cart-icon a,
+        .header-03 .search-form .search-bar .icon-search {
+            color: #232323;
+        }
+        
+        .header-03 .lang-currency-groups .dropdown-label {
+            color: #3c3c3c;
+        }
+        
+        .lang-currency-groups .btn-group .dropdown-item {
+            color: #3c3c3c;
+        }
+        
+        .lang-currency-groups .btn-group .dropdown-item:hover,
+        .lang-currency-groups .btn-group .dropdown-item:focus:
+        .lang-currency-groups .btn-group .dropdown-item:active,
+        .lang-currency-groups .btn-group .dropdown-item.active {
+            color: #3c3c3c;
+        }
+
+        
+    }
+
+
+
+
+
+
+
+
+
+<------------------navigation--------------->
+
+.nav-vertical .social-icons a {
+        color: #3c3c3c;
+    }
+
+    .nav-vertical .header-logo img {
+        max-height: ;
+    }
+
+    @media (min-width:1200px) {
+        .navigation-vertical-menu,
+        .wrapper-navigation,
+        .main-menu {
+            background-color: #fdf5f5;
+        }
+        
+        .site-nav .sub-menu-mobile {
+            background-color: #ffffff;
+        }
+        
+        .wrapper-navigation .main-menu {
+            text-align: left;
+        }
+        
+        /*  Menu Lv 1  */
+        .has_sticky .wrapper_header_default .wrapper-top-cart .cart-icon svg,
+        .wrapper-navigation .fixed-right-menu a,
+        .wrapper-navigation .site-nav .menu-lv-1 > a {
+            color: #3c3c3c;
+        }
+
+                
+        .is-sticky .wrapper-navigation .fixed-right-menu .search-fixed,
+        .is-sticky .wrapper-navigation .fixed-right-menu .cart-fixed {
+            border-left-color: rgba(60, 60, 60, 0.15);
+        }
+
+        
+        
+        .site-nav .menu-lv-1 > a:hover {
+            color: #3c3c3c;
+        }
+        
+        .site-nav .menu-lv-1>a span:before {
+            background-color: #3c3c3c;
+        }
+        
+        /*  Menu Lv 2  */
+        .site-nav .menu-lv-2>a,
+        .site-nav .mega-menu .mega-banner .title,
+        .site-nav .mega-menu .product-item .btn {
+            color: #232323;
+        }
+        
+        .site-nav .mega-menu .product-item .btn {
+            border-bottom-color: rgba(35, 35, 35, 0.7);
+        }
+        
+        .site-nav .menu-lv-2 > a:hover {
+            color: #232323;
+        }
+        
+        /*  Menu Lv 3  */
+        .site-nav .menu-lv-3 > a,
+        .site-nav .no-mega-menu .menu-lv-2 > a{
+            color: #3c3c3c;
+        }
+        
+        .site-nav .menu-lv-3 > a:hover,
+        .site-nav .no-mega-menu .menu-lv-2 > a:hover {
+            color: #fad4d4;
+        }
+        
+        .site-nav .menu-lv-3 > a span:before {
+            background-color: #fad4d4;
+        }
+        
+        .site-nav .icon_sale:before {
+            border-top-color: #ef6454;
+        }
+
+        .site-nav .icon_new:before {
+            border-top-color: #06bfe2;
+        }
+
+        .site-nav .icon_hot:before {
+            border-top-color: #ffbb49;
+        }
+
+        .site-nav .menu-lv-1 > a,
+        .site-nav .menu-mb-title {
+            font-size: 11.5px;    
+        }
+        
+        .site-nav .menu-lv-2 > a,
+        .site-nav .mega-menu .mega-banner .title,
+        .site-nav .mega-menu .product-item .btn {
+            font-size: 12px;    
+        }
+        
+        .site-nav .menu-lv-3 > a {
+            font-size: 12px;    
+        }
+    }
+  
+    .site-nav .icon_sale {
+        background-color: #ef6454;
+        color: #ffffff;
+    }
+        
+    .site-nav .icon_new {
+        background-color: #06bfe2;
+        color: #ffffff;
+    }
+        
+    .site-nav .icon_hot {
+        background-color: #ffbb49;
+        color: #ffffff;
+    }
+   
+    @media (max-width:1199px) {
+        .site-nav .icon_sale:before {
+            border-right-color: #ef6454;
+        }
+
+        .site-nav .icon_new:before {
+            border-right-color: #06bfe2;
+        }
+
+        .site-nav .icon_hot:before {
+            border-right-color: #ffbb49;
+        }
+    }
+
+
+@media (min-width:1200px) {
+    
+    .header-lang-style2 .is-sticky .main-menu,
+    .wrapper_header_default .is-sticky .main-menu {
+        width: -moz-calc(100% - 112px);
+        width: -webkit-calc(100% - 112px);
+        width: -ms-calc(100% - 112px);
+        width: calc(100% - 112px);
+        margin-left: 112px;
+    }
+    
+}
+
+
+
+<-----------------------Slider------------->
+
+ #slideshow-1540952363851 .lb-icon-1-8555a120-ba4d-4fba-91c4-351ef0c3acb2 .glyphicon {
+                            background-color: #323232;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-1-8555a120-ba4d-4fba-91c4-351ef0c3acb2 .glyphicon:before,
+                            #slideshow-1540952363851 .lb-icon-1-8555a120-ba4d-4fba-91c4-351ef0c3acb2 .glyphicon:after {
+                            background-color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-1-8555a120-ba4d-4fba-91c4-351ef0c3acb2:before{
+                            color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-2-8555a120-ba4d-4fba-91c4-351ef0c3acb2 .glyphicon {
+                            background-color: #323232;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-2-8555a120-ba4d-4fba-91c4-351ef0c3acb2 .glyphicon:before,
+                            #slideshow-1540952363851 .lb-icon-2-8555a120-ba4d-4fba-91c4-351ef0c3acb2 .glyphicon:after {
+                            background-color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-2-8555a120-ba4d-4fba-91c4-351ef0c3acb2:before{
+                            color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-3-8555a120-ba4d-4fba-91c4-351ef0c3acb2 .glyphicon {
+                            background-color: #323232;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-3-8555a120-ba4d-4fba-91c4-351ef0c3acb2 .glyphicon:before,
+                            #slideshow-1540952363851 .lb-icon-3-8555a120-ba4d-4fba-91c4-351ef0c3acb2 .glyphicon:after {
+                            background-color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-3-8555a120-ba4d-4fba-91c4-351ef0c3acb2:before{
+                            color: #ffffff;
+                            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML
+ <--------------Header------------>
+
+
+<header class="site-header header-03" role="banner">
+    
+    <div class="header-top">
+        <div class="container">
+            <div class="top-message">
+                <p>
+                    
+<span>
+  <b>Free Shipping</b> on orders above <b>Rs.5000/-</b> or more!
+</span>
+
+                </p>    
+            </div>    
+        </div>
+    </div>
+
+
+
+
+
+<------------------Social Icons-------------->
+
+
+<ul class="social-icons">
+  
+  <li class="facebook">
+    <a href="https://web.facebook.com/thestationerycompany.pk" title="Facebook" target="_blank">
+        
+        <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+        
+    </a>
+  </li>
+  
+  
+  <li class="twitter">
+    <a href="https://twitter.com/thestationerycompany" title="Twitter" target="_blank">
+      <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  
+  
+  
+  
+  
+  <li class="instagram">
+    <a href="https://www.instagram.com/thestationerycompany.pk/" title="Instagram" target="_blank">
+      <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  
+  
+  
+     
+  
+  
+  
+  <li class="youtube">
+    <a href="https://thestationerycompany.pk" title="YouTube" target="_blank">
+      <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  
+  
+</ul>
+ 
+                            </div>
+                            
+
+                            <div class="right-groups header-items">
+                                
+                                <div class="cus-ser-text">
+                                    
+<span>
+  Customer Service <b>0311-7770-119</b>
+</span>
+
+                                </div>
+                                
+                                
+                                <div class="customer-links">
+                                      
+                                    
+                                    <a class="acc-links acc-regis" id="customer_register_link" href="/account/register">
+                                        Register
+                                    </a>
+                                    <a data-user-pc-translate class="acc-links acc-sign-in" id="customer_login_link" href="/account/login" >
+                                        Sign In
+                                    </a>  
+                                                                       
+                                </div>
+
+
+
+
+
+
+
+
+
+
+<--------------------Logo----------------->
+
+
+
+<div class="header-panel-bt">
+                    <div class="container">  
+                        
+                        <div class="left-groups header-items">
+                            <div class="free-shipping-text">
+                                
+<span>
+  Delivery Time is 3 to 5 Working Days!
+</span>
+
+                            </div>
+                        </div>
+                        
+
+                        <div class="center-groups header-items">
+                            <div class="header-logo" itemscope itemtype="http://schema.org/Organization">
+                              <meta itemprop="url" content="https://www.thestationerycompany.pk">
+                                
+                                <a class="logo-img" href="/" title="Logo">
+                                    <img itemprop="logo" data-src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/best-quality-stationery-and-art-supplies-store-online-in-Pakistan.png?v=1599805033"
+                                        src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/best-quality-stationery-and-art-supplies-store-online-in-Pakistan.png?v=1599805033"
+                                        alt="thestationerycompany.pk" itemprop="logo" class="lazyautosizes lazyloaded" data-sizes="auto">
+
+                                        
+                                </a>
+                                
+                            </div>
+                        </div>
+
+                        <div class="right-groups header-items">
+                            
+                            <div class="nav-search">                    
+                              <div class="search-form" data-ajax-search>
+    <div class="header-search">
+        <div class="header-search__form">
+            <a href="javascript:void(0)" title="close" class="close close-search">
+                <svg aria-hidden="true" data-prefix="fal" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-times fa-w-10 fa-2x"><path fill="currentColor" d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z" class=""></path></svg>
+            </a>
+
+            <form action="/search" method="get" class="search-bar" role="search">
+                <input type="hidden" name="type" value="product">
+
+                <input type="search" name="q" 
+                     
+                    placeholder="Search" 
+                    class="input-group-field header-search__input" aria-label="Search Site" autocomplete="off">
+        
+                <button type="submit" class="btn icon-search">
+                    <svg data-icon="search" viewBox="0 0 512 512" width="100%" height="100%">
+    <path d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z"></path>
+</svg>
+                </button>
+            </form>       
+        </div>
+
+        <div class="quickSearchResultsWrap" style="display: none;">
+            <div class="custom-scrollbar">
+                <div class="container">
+                    
+                    <div class="header-block header-search__trending">
+                        <div class="box-title">
+                            
+<span>
+  trending
+</span>
+
+                        </div>
+
+                        <ul class="list-item">
+                            
+                            
+                            
+
+                            <li class="item">
+                                <a href="/search?q=journals*&amp;type=product" title="" class="highlight">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    
+<span>
+  Journals
+</span>
+
+                                </a>
+                            </li>
+                            
+
+                            
+
+                            
+
+                            <li class="item">
+                                <a href="/search?q=acrylic*&amp;type=product" title="" class="highlight">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    
+<span>
+  Acrylic
+</span>
+
+                                </a>
+                            </li>
+                            
+
+                            
+
+                            
+                            <li class="item">
+                                <a href="/search?q=desk-organizer*&amp;type=product" title="" class="highlight">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    
+<span>
+  Desk Organizer
+</span>
+
+                                </a>
+                            </li>
+                            
+
+                            
+
+                            
+                            <li class="item">
+                                <a href="/search?q=backpack*&amp;type=product" title="" class="highlight">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    
+<span>
+  Backpack
+</span>
+
+                                </a>
+                            </li>
+                            
+
+                            
+
+                            
+                            <li class="item">
+                                <a href="/search?q=brushes*&amp;type=product" title="" class="highlight">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    
+<span>
+  Brushes
+</span>
+
+                                </a>
+                            </li>
+                            
+
+                            
+
+                            
+                            <li class="item">
+                                <a href="/search?q=learning-toys*&amp;type=product" title="" class="highlight">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    
+<span>
+  Learning Toys
+</span>
+
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
+
+                    
+                    <div class="header-block header-search__product">
+                        <div class="box-title">
+                            
+<span>
+  Popular Products
+</span>
+
+                        </div>
+
+                        <div class="search__products">
+                            <div class="products-grid row">
+                                
+                            </div>                    
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="header-search__results-wrapper"></div>          
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+                            </div>
+
+
+
+
+<------------------navigation Code-------------->
+
+
+
+<div class="wrapper-navigation" data-sticky-pc>
+    
+    
+    <div class="main-menu jas-mb-style">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mb-area">
+                        <nav class="nav-bar" role="navigation">
+                            
+
+<ul class="site-nav">
+    
+
+    
+
+    
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    <li class="menu-lv-1 item">
+        <a class=""  href="https://the-stationery-company.myshopify.com/">
+            
+<span>
+  Home
+</span>
+
+
+            
+
+            
+
+            
+
+            
+        </a>
+
+        
+    </li>
+    
+
+    
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    <li class="menu-lv-1 item dropdown mega-menu">
+        <a class="menu__moblie "  href="/collections/stationery">
+            
+<span>
+  TSC Stationery
+</span>
+
+
+            
+            <span class="icon-dropdown" data-toggle-menu-mb>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+            
+
+            
+
+            
+
+            
+        </a>
+
+        
+        <div class="sub-menu-mobile menu-mb-translate">
+            <div class="menu-mb-title">
+                <span class="icon-dropdown">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </span>
+                
+<span>
+  TSC Stationery
+</span>
+
+            </div>
+
+        
+
+            
+
+            
+            <div class="site-nav-dropdown style_4">
+                <div class="container">
+                  	<div class="row">
+    
+    <div class="col-12 col-xl-12">
+        <div class="row" data-masonry='{ "itemSelector": "[data-gridItem]", "columnWidth": ".grid-sizer" }'>
+            <div class="grid-sizer"></div>
+
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/kraft-notebooks" class="current">
+                    
+<span>
+  kraft Notebooks
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/journals-notebook" class="current">
+                    
+<span>
+  Journals & Notebook
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/backpacks" class="current">
+                    
+<span>
+  Backpacks
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/cute-pencil" class="current">
+                    
+<span>
+  Cute Pencil
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/enamel-pins" class="current">
+                    
+<span>
+  Enamel Pins
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/fancy-pen" class="current">
+                    
+<span>
+  Fancy Pen
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/gift-bag" class="current">
+                    
+<span>
+  Gift Bag
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/stationery-set" class="current">
+                    
+<span>
+  Stationery Set
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/planners" class="current">
+                    
+<span>
+  Planner
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/pouches" class="current">
+                    
+<span>
+  Pouches
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/waterbottle" class="current">
+                    
+<span>
+  Waterbottle
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/deal" class="current">
+                    
+<span>
+  Deal
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+
+    
+</div>
+
+                </div>
+            </div>
+
+            
+        </div>
+        
+    </li>
+    
+
+    
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    <li class="menu-lv-1 item dropdown mega-menu">
+        <a class="menu__moblie "  href="/collections/art-supplies">
+            
+<span>
+  Art Supplies
+</span>
+
+
+            
+            <span class="icon-dropdown" data-toggle-menu-mb>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+            
+
+            
+
+            
+
+            
+        </a>
+
+        
+        <div class="sub-menu-mobile menu-mb-translate">
+            <div class="menu-mb-title">
+                <span class="icon-dropdown">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </span>
+                
+<span>
+  Art Supplies
+</span>
+
+            </div>
+
+        
+
+            
+
+            
+            <div class="site-nav-dropdown style_4">
+                <div class="container">
+                  	<div class="row">
+    
+    <div class="col-12 col-xl-12">
+        <div class="row" data-masonry='{ "itemSelector": "[data-gridItem]", "columnWidth": ".grid-sizer" }'>
+            <div class="grid-sizer"></div>
+
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/art-accessories" class="current">
+                    
+<span>
+  Art Accessories
+</span>
+
+
+                    
+                    <span class="icon-dropdown" data-toggle-menu-mb>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </span>
+                    
+                </a>
+
+                
+                <div class="sub-menu-mobile menu-mb-translate">
+                    <div class="menu-mb-title">
+                        <span class="icon-dropdown">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </span>
+                        
+<span>
+  Art Accessories
+</span>
+
+                    </div>
+
+                    <ul class="site-nav-dropdown">
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/kneaded-eraser" >
+                            
+<span>
+  Art Eraser
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/art-glue" >
+                            
+<span>
+  Art Glue
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/art-marker" >
+                            
+<span>
+  Art Marker
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/art-pencil" >
+                            
+<span>
+  Art Pencil
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/brush-pens" >
+                            
+<span>
+  Brush Pen
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/artist-sharpener" >
+                            
+<span>
+  Artist Sharpener
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/brushes" >
+                            
+<span>
+  Brushes
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/crayons" >
+                            
+<span>
+  Crayons
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/calligraphy-accessories" >
+                            
+<span>
+  Calligraphy Accessories
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/charcoal-and-graphite" >
+                            
+<span>
+  Charcoal and Graphite
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/drawing-inks" >
+                            
+<span>
+  Drawing Inks
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/drawing-set" >
+                            
+<span>
+  Drawing Pencil Set
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/gel-pens" >
+                            
+<span>
+  Gel Pens
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/fineliner" >
+                            
+<span>
+  Fineliner
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/painting-accessories" >
+                            
+<span>
+  Painting Accessories
+</span>
+
+                        </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/canvas-art-sheets" class="current">
+                    
+<span>
+  Canvas & Art Sheets
+</span>
+
+
+                    
+                    <span class="icon-dropdown" data-toggle-menu-mb>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </span>
+                    
+                </a>
+
+                
+                <div class="sub-menu-mobile menu-mb-translate">
+                    <div class="menu-mb-title">
+                        <span class="icon-dropdown">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </span>
+                        
+<span>
+  Canvas & Art Sheets
+</span>
+
+                    </div>
+
+                    <ul class="site-nav-dropdown">
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/acrylic-pad" >
+                            
+<span>
+  Acrylic Pad
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/canvas" >
+                            
+<span>
+  Canvas
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/canvas-pads" >
+                            
+<span>
+  Canvas Pads
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/drawing-pads" >
+                            
+<span>
+  Drawing Pads
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/easels" >
+                            
+<span>
+  Easels
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/sketchbooks" >
+                            
+<span>
+  Sketchbooks
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/sketch-pads" >
+                            
+<span>
+  Sketch Pads
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/watercolor-pads" >
+                            
+<span>
+  Watercolor Pads
+</span>
+
+                        </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/paints-mediums" class="current">
+                    
+<span>
+  Paints & Mediums
+</span>
+
+
+                    
+                    <span class="icon-dropdown" data-toggle-menu-mb>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </span>
+                    
+                </a>
+
+                
+                <div class="sub-menu-mobile menu-mb-translate">
+                    <div class="menu-mb-title">
+                        <span class="icon-dropdown">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </span>
+                        
+<span>
+  Paints & Mediums
+</span>
+
+                    </div>
+
+                    <ul class="site-nav-dropdown">
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/acrylic-medium" >
+                            
+<span>
+  Acrylic Medium
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/acrylic-paints" >
+                            
+<span>
+  Acrylic Paints
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/fabric-paints" >
+                            
+<span>
+  Fabric Paints
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/glass-paints" >
+                            
+<span>
+  Glass Paints
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/oil-paints" >
+                            
+<span>
+  Oil Paints
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/oil-painting-mediums" >
+                            
+<span>
+  Oil Painting Mediums
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/oils-thinners" >
+                            
+<span>
+  Oils & Thinners
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/oil-pastel" >
+                            
+<span>
+  Oil Pastel
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/poster-paints" >
+                            
+<span>
+  Poster Paints
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/pigments-powders" >
+                            
+<span>
+  Pigments & Powders
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/hard-pastels" >
+                            
+<span>
+  Hard Pastels
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/soft-pastel" >
+                            
+<span>
+  Soft Pastel
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/silk-paints" >
+                            
+<span>
+  Silk Paints
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/spray-paints" >
+                            
+<span>
+  Spray Paints
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/watercolor" >
+                            
+<span>
+  Watercolor
+</span>
+
+                        </a>
+                        </li>
+                        
+                        <!-- Menu level 3 -->
+                        <li class="menu-lv-3">
+                        <a href="/collections/watercolor-medium" >
+                            
+<span>
+  Watercolor Medium
+</span>
+
+                        </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/painting-kit" class="current">
+                    
+<span>
+  Painting Deals
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+
+    
+</div>
+
+                </div>
+            </div>
+
+            
+        </div>
+        
+    </li>
+    
+
+    
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    <li class="menu-lv-1 item dropdown mega-menu">
+        <a class="menu__moblie "  href="/collections/office-supplies">
+            
+<span>
+  Office Supplies
+</span>
+
+
+            
+            <span class="icon-dropdown" data-toggle-menu-mb>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+            
+
+            
+
+            
+
+            
+        </a>
+
+        
+        <div class="sub-menu-mobile menu-mb-translate">
+            <div class="menu-mb-title">
+                <span class="icon-dropdown">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </span>
+                
+<span>
+  Office Supplies
+</span>
+
+            </div>
+
+        
+
+            
+
+            
+            <div class="site-nav-dropdown style_4">
+                <div class="container">
+                  	<div class="row">
+    
+    <div class="col-12 col-xl-12">
+        <div class="row" data-masonry='{ "itemSelector": "[data-gridItem]", "columnWidth": ".grid-sizer" }'>
+            <div class="grid-sizer"></div>
+
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/account-books-and-journals" class="current">
+                    
+<span>
+  Account Books And Journals
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/binder-clips" class="current">
+                    
+<span>
+  Binder Clips
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/book-end" class="current">
+                    
+<span>
+  Book End
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/ballpoint-pen" class="current">
+                    
+<span>
+  Ballpoint Pen
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/calculators" class="current">
+                    
+<span>
+  Calculators
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/clip-board" class="current">
+                    
+<span>
+  Clip Board
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/cutting-mat" class="current">
+                    
+<span>
+  Cutting Mat
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/desk-organizers" class="current">
+                    
+<span>
+  Desk Organizers
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/fountain-pen" class="current">
+                    
+<span>
+  Fountain Pen
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/finger-wet-device" class="current">
+                    
+<span>
+  Finger Wet Device
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/file-bags" class="current">
+                    
+<span>
+  File Bags
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/highlighter" class="current">
+                    
+<span>
+  Highlighter
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/inks" class="current">
+                    
+<span>
+  Inks
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/id-card-holder" class="current">
+                    
+<span>
+  Id Card Holder
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/key-tags" class="current">
+                    
+<span>
+  Key Tags
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/laminator" class="current">
+                    
+<span>
+  Laminator
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/markers" class="current">
+                    
+<span>
+  Markers
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/magnifier-glass" class="current">
+                    
+<span>
+  Magnifier Glass
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/mechanical-pencil" class="current">
+                    
+<span>
+  Mechanical Pencil
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/numbering-machine" class="current">
+                    
+<span>
+  Numbering Machine
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/pointer" class="current">
+                    
+<span>
+  Pointer
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/pen-stand" class="current">
+                    
+<span>
+  Pen Stand
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/pencils" class="current">
+                    
+<span>
+  Pencils
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/paper-cutter" class="current">
+                    
+<span>
+  Paper Cutter
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/punch-machines" class="current">
+                    
+<span>
+  Punch Machines
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/paper-shredder" class="current">
+                    
+<span>
+  Paper Shredder
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/scissor" class="current">
+                    
+<span>
+  Scissor
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/stamps" class="current">
+                    
+<span>
+  Stamps
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/sticky-notes" class="current">
+                    
+<span>
+  Sticky Notes
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/staplers" class="current">
+                    
+<span>
+  Staplers
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/tape-dispenser" class="current">
+                    
+<span>
+  Tape & Dispenser
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/whiteboards" class="current">
+                    
+<span>
+  Whiteboards
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+
+    
+</div>
+
+                </div>
+            </div>
+
+            
+        </div>
+        
+    </li>
+    
+
+    
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    <li class="menu-lv-1 item dropdown mega-menu">
+        <a class="menu__moblie "  href="/collections/school-supplies">
+            
+<span>
+  School Supplies
+</span>
+
+
+            
+            <span class="icon-dropdown" data-toggle-menu-mb>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+            
+
+            
+
+            
+
+            
+        </a>
+
+        
+        <div class="sub-menu-mobile menu-mb-translate">
+            <div class="menu-mb-title">
+                <span class="icon-dropdown">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </span>
+                
+<span>
+  School Supplies
+</span>
+
+            </div>
+
+        
+
+            
+
+            
+            <div class="site-nav-dropdown style_4">
+                <div class="container">
+                  	<div class="row">
+    
+    <div class="col-12 col-xl-12">
+        <div class="row" data-masonry='{ "itemSelector": "[data-gridItem]", "columnWidth": ".grid-sizer" }'>
+            <div class="grid-sizer"></div>
+
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/color-pencil" class="current">
+                    
+<span>
+  Color Pencil
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/erasers-correction" class="current">
+                    
+<span>
+  Erasers & Correction
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/gel-pen" class="current">
+                    
+<span>
+  Gel Pen
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/glues" class="current">
+                    
+<span>
+  Glues
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/geometry-box" class="current">
+                    
+<span>
+  Geometry Box
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/ink" class="current">
+                    
+<span>
+  Ink
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/lead-pencils" class="current">
+                    
+<span>
+  Lead Pencils
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/markers-highlighters" class="current">
+                    
+<span>
+  Markers & Highlighters
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/pens" class="current">
+                    
+<span>
+  Pens
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/sharpeners" class="current">
+                    
+<span>
+  Sharpeners
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/scissors" class="current">
+                    
+<span>
+  Scissors
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/scales" class="current">
+                    
+<span>
+  Scales
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/kids-paints" class="current">
+                    
+<span>
+  Kids Paints
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/kids-stationery-set" class="current">
+                    
+<span>
+  Kids Stationery Set
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/school-bags" class="current">
+                    
+<span>
+  School Bags
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/pencil-case" class="current">
+                    
+<span>
+  Pencil Case
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+
+    
+</div>
+
+                </div>
+            </div>
+
+            
+        </div>
+        
+    </li>
+    
+
+    
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    <li class="menu-lv-1 item dropdown mega-menu">
+        <a class="menu__moblie "  href="/collections/craft-supplies">
+            
+<span>
+  Craft Supplies
+</span>
+
+
+            
+            <span class="icon-dropdown" data-toggle-menu-mb>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+            
+
+            
+
+            
+
+            
+        </a>
+
+        
+        <div class="sub-menu-mobile menu-mb-translate">
+            <div class="menu-mb-title">
+                <span class="icon-dropdown">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </span>
+                
+<span>
+  Craft Supplies
+</span>
+
+            </div>
+
+        
+
+            
+
+            
+            <div class="site-nav-dropdown style_4">
+                <div class="container">
+                  	<div class="row">
+    
+    <div class="col-12 col-xl-12">
+        <div class="row" data-masonry='{ "itemSelector": "[data-gridItem]", "columnWidth": ".grid-sizer" }'>
+            <div class="grid-sizer"></div>
+
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/craft-accessories" class="current">
+                    
+<span>
+  Craft Accessories
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/craft-cutter-1" class="current">
+                    
+<span>
+  Craft Cutter
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/craft-puncher" class="current">
+                    
+<span>
+  Craft Puncher
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/craft-ice-wood" class="current">
+                    
+<span>
+  Craft Ice Wood
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/craft-scissor-1" class="current">
+                    
+<span>
+  Craft Scissor
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/glue" class="current">
+                    
+<span>
+  Glue
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/modeling-clay" class="current">
+                    
+<span>
+  Modeling Clay
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/modeling-tool" class="current">
+                    
+<span>
+  Modeling Tool
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/play-dough" class="current">
+                    
+<span>
+  Play Dough
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+
+    
+</div>
+
+                </div>
+            </div>
+
+            
+        </div>
+        
+    </li>
+    
+
+    
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    <li class="menu-lv-1 item dropdown mega-menu">
+        <a class="menu__moblie "  href="/collections/toys">
+            
+<span>
+  Toys and Games
+</span>
+
+
+            
+            <span class="icon-dropdown" data-toggle-menu-mb>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+            
+
+            
+
+            
+
+            
+        </a>
+
+        
+        <div class="sub-menu-mobile menu-mb-translate">
+            <div class="menu-mb-title">
+                <span class="icon-dropdown">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </span>
+                
+<span>
+  Toys and Games
+</span>
+
+            </div>
+
+        
+
+            
+
+            
+            <div class="site-nav-dropdown style_4">
+                <div class="container">
+                  	<div class="row">
+    
+    <div class="col-12 col-xl-12">
+        <div class="row" data-masonry='{ "itemSelector": "[data-gridItem]", "columnWidth": ".grid-sizer" }'>
+            <div class="grid-sizer"></div>
+
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/arts-craft-play" class="current">
+                    
+<span>
+  Arts & Craft Play
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/action-figures" class="current">
+                    
+<span>
+  Action Figures
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/blasters" class="current">
+                    
+<span>
+  Blasters
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/board-games-puzzles" class="current">
+                    
+<span>
+  Board Games & Puzzles
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/cars-trains" class="current">
+                    
+<span>
+  Cars & Trains
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/clay-dough" class="current">
+                    
+<span>
+  Clay & Dough
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/educational-toy" class="current">
+                    
+<span>
+  Educational Toy
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/fashion-dolls" class="current">
+                    
+<span>
+  Fashion Dolls
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/kitchen-sets" class="current">
+                    
+<span>
+  Kitchen Sets
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/lego-bricks" class="current">
+                    
+<span>
+  Lego & Bricks
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/learning-activity-toys" class="current">
+                    
+<span>
+  Learning & Activity Toys
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/musical-toy" class="current">
+                    
+<span>
+  Musical Toy
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/outdoor" class="current">
+                    
+<span>
+  Outdoor
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/play-mate-gyms" class="current">
+                    
+<span>
+  Play Mate & Gyms
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/sports-toys" class="current">
+                    
+<span>
+  Sports Toys
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/stuffed-toys" class="current">
+                    
+<span>
+  Stuffed Toys
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/trolley-other-sets" class="current">
+                    
+<span>
+  Trolley & Other Sets
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+            <div data-gridItem class="menu-lv-2 inner dropdown col-12 col5">
+                <!-- Menu level 2 -->
+                <a class="menu__moblie" href="/collections/walkers-entertainers" class="current">
+                    
+<span>
+  Walkers & Entertainers
+</span>
+
+
+                    
+                </a>
+
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+
+    
+</div>
+
+                </div>
+            </div>
+
+            
+        </div>
+        
+    </li>
+    
+
+    
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    <li class="menu-lv-1 item">
+        <a class=""  href="/collections/99-below">
+            
+<span>
+  Below Rs.99
+</span>
+
+
+            
+
+            
+
+            
+
+            
+        </a>
+
+        
+    </li>
+    
+</ul>
+
+                        </nav>                
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+
+
+<---------------------Slider--------------->
+
+
+<div class="wrapper-container wrapper-body">	
+        <main class="main-content" role="main">      
+            <!-- BEGIN content_for_index --><div id="shopify-section-1540952363851" class="shopify-section home-slideshow-sections">
+
+<section class="home-slideshow" id="slideshow-1540952363851">
+    <div class="container-fluid">
+        <div class="row">
+            <div class ="no-padd col-12">
+                <div class="slideshow" data-auto-video="true" data-init-slideshow data-dots="true" data-autoplay="true" data-autoplay-speed="10000" data-fade="true">
+                
+                
+                <div class="item">
+                
+
+                    <div class="images-contain">
+                        
+<a href="/collections/planners" class="slide-image">
+                            <img data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/files/daily-weekly-planners-pakistan.png?v=1608385744" alt="thestationerycompany.pk" itemprop="logo"
+                                class="lazyload" data-sizes="auto">
+
+                            
+                        </a>
+
+
+     
+                    </div>
+
+
+                
+                
+                </div>
+
+
+
+<div class="item">
+                
+
+                    <div class="images-contain">
+                        
+<a href="/collections/art-supplies" class="slide-image">
+                            <img data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/files/Best_Fine_Art_Supplies_Online_Store_In_Pakistan.jpg?v=1603112313" alt="thestationerycompany.pk" itemprop="logo"
+                                class="lazyload slide-pc" data-sizes="auto">
+
+                            
+<img data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/files/art-supplies-online-in-Pakistan.jpg?v=1605679299" alt="thestationerycompany.pk" itemprop="logo"
+                                class="lazyload slide-mobile" data-sizes="auto">
+                            
+                        </a>
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        <style type="text/css">
+                            #slideshow-1540952363851 .lb-icon-1-1540956832206 .glyphicon {
+                            background-color: #323232;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-1-1540956832206 .glyphicon:before,
+                            #slideshow-1540952363851 .lb-icon-1-1540956832206 .glyphicon:after {
+                            background-color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-1-1540956832206:before{
+                            color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-2-1540956832206 .glyphicon {
+                            background-color: #323232;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-2-1540956832206 .glyphicon:before,
+                            #slideshow-1540952363851 .lb-icon-2-1540956832206 .glyphicon:after {
+                            background-color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-2-1540956832206:before{
+                            color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-3-1540956832206 .glyphicon {
+                            background-color: #323232;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-3-1540956832206 .glyphicon:before,
+                            #slideshow-1540952363851 .lb-icon-3-1540956832206 .glyphicon:after {
+                            background-color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-3-1540956832206:before{
+                            color: #ffffff;
+                            }
+                        </style>
+
+                        
+                    </div>
+
+
+                
+                
+                </div>
+                
+                
+                
+                <div class="item">
+                
+
+                    <div class="images-contain">
+                        
+<a href="" class="slide-image">
+                            <img data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/files/office-stationery-store-online-in-Pakistan.jpg?v=1603112360" alt="thestationerycompany.pk" itemprop="logo"
+                                class="lazyload slide-pc" data-sizes="auto">
+
+                            
+<img data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/files/office-supplies-online-in-Pakistan.jpg?v=1605679330" alt="thestationerycompany.pk" itemprop="logo"
+                                class="lazyload slide-mobile" data-sizes="auto">
+                            
+                        </a>
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        <style type="text/css">
+                            #slideshow-1540952363851 .lb-icon-1-1599739849218 .glyphicon {
+                            background-color: #323232;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-1-1599739849218 .glyphicon:before,
+                            #slideshow-1540952363851 .lb-icon-1-1599739849218 .glyphicon:after {
+                            background-color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-1-1599739849218:before{
+                            color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-2-1599739849218 .glyphicon {
+                            background-color: #323232;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-2-1599739849218 .glyphicon:before,
+                            #slideshow-1540952363851 .lb-icon-2-1599739849218 .glyphicon:after {
+                            background-color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-2-1599739849218:before{
+                            color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-3-1599739849218 .glyphicon {
+                            background-color: #323232;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-3-1599739849218 .glyphicon:before,
+                            #slideshow-1540952363851 .lb-icon-3-1599739849218 .glyphicon:after {
+                            background-color: #ffffff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-3-1599739849218:before{
+                            color: #ffffff;
+                            }
+                        </style>
+
+                        
+                    </div>
+
+
+                
+                
+                </div>
+                
+                
+                
+                <div class="item">
+                
+
+                    <div class="images-contain">
+                        
+<a href="/collections/intex" class="slide-image">
+                            <img data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/files/intex-swimming-pools-for-kids-and-adults.png?v=1616743574" alt="thestationerycompany.pk" itemprop="logo"
+                                class="lazyload slide-pc" data-sizes="auto">
+
+                            
+<img data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/files/intex-swimming-pools.png?v=1616743877" alt="thestationerycompany.pk" itemprop="logo"
+                                class="lazyload slide-mobile" data-sizes="auto">
+                            
+                        </a>
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        <style type="text/css">
+                            #slideshow-1540952363851 .lb-icon-1-d2bc2b7d-53c7-4ba9-8ebe-4006c9a81e2c .glyphicon {
+                            background-color: #323232;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-1-d2bc2b7d-53c7-4ba9-8ebe-4006c9a81e2c .glyphicon:before,
+                            #slideshow-1540952363851 .lb-icon-1-d2bc2b7d-53c7-4ba9-8ebe-4006c9a81e2c .glyphicon:after {
+                            background-color: #fff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-1-d2bc2b7d-53c7-4ba9-8ebe-4006c9a81e2c:before{
+                            color: #fff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-2-d2bc2b7d-53c7-4ba9-8ebe-4006c9a81e2c .glyphicon {
+                            background-color: #323232;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-2-d2bc2b7d-53c7-4ba9-8ebe-4006c9a81e2c .glyphicon:before,
+                            #slideshow-1540952363851 .lb-icon-2-d2bc2b7d-53c7-4ba9-8ebe-4006c9a81e2c .glyphicon:after {
+                            background-color: #fff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-2-d2bc2b7d-53c7-4ba9-8ebe-4006c9a81e2c:before{
+                            color: #fff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-3-d2bc2b7d-53c7-4ba9-8ebe-4006c9a81e2c .glyphicon {
+                            background-color: #323232;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-3-d2bc2b7d-53c7-4ba9-8ebe-4006c9a81e2c .glyphicon:before,
+                            #slideshow-1540952363851 .lb-icon-3-d2bc2b7d-53c7-4ba9-8ebe-4006c9a81e2c .glyphicon:after {
+                            background-color: #fff;
+                            }
+
+                            #slideshow-1540952363851 .lb-icon-3-d2bc2b7d-53c7-4ba9-8ebe-4006c9a81e2c:before{
+                            color: #fff;
+                            }
+                        </style>
+
+                        
+                    </div>
+
+
+                
+                
+                </div>
+                
+                
+                </div>
+                <div class="custom-arrow-left">
+                  <div class="triangle-left"></div>
+                </div>
+                <div class="custom-arrow-right">
+                  <div class="triangle-right"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<style>
+    
+    
+    
+    
+    
+
+    
+    #slideshow-1540952363851 .slick-arrow {
+        color: #636a6a;
+        border-color: #636a6a;
+        background-color: rgba(0,0,0,0);
+    }
+
+    #slideshow-1540952363851 .slick-arrow.slick-prev {
+        left: 9.5%;
+    }
+
+    #slideshow-1540952363851 .slick-arrow.slick-next {
+        right: 9.5%;
+    }
+    
+
+    
+
+    .fluid-width-video-wrapper {
+        padding-top: 38.3%!important;
+    }
+
+    #slideshow-1540952363851 [data-video-mp4] .fluid-width-video-wrapper:before {
+        background: #866965;
+        opacity: 0.4;
+    }
+
+    @media (max-width: 767px) {
+        #slideshow-1540952363851 {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        #slideshow-1540952363851 {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #slideshow-1540952363851 {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #slideshow-1540952363851 .slick-dots li button {
+            border-color: #707979;
+            background: #707979;
+            border-width: 1.5px;
+        }
+
+        #slideshow-1540952363851 .slick-dots li.slick-active button {
+            background: rgba(255,255,255,0);
+            border-color: #747d7d;
+        }
+
+        
+        #slideshow-1540952363851 .slick-dots li:not(.slick-active) button {
+            opacity: 0.8;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
+            filter: alpha(opacity=80);
+        }
+        
+    }
+</style>
+
+
+</div><div id="shopify-section-1599814884124" class="shopify-section home-custom-sub-banner-sections">
+<div class="home-custom-sub-banner" id="custom-sub-banner-1599814884124">
+    <div class="container">
+        <div class="row">
+            
+            
+            
+            
+            
+            <div class="col-12 col-md-6 col-lg-4 three-blocks twoImage">
+                <div class="row">
+                    <div class="item col-6 col-md-12">
+                        <div class="sub-banner banner-item">
+                            <div class="img-box">
+                                <a href="/collections/art-supplies" class="animate-scale">
+                                
+<img data-src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/best-fine-art-material-online-store-in-Pakistan-min_600x_crop_center.jpg?v=1601297130"
+                                    src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/best-fine-art-material-online-store-in-Pakistan-min_600x_crop_center.jpg?v=1601297130" alt="thestationerycompany.pk" itemprop="logo"
+                                    class="lazyautosizes lazyloaded" data-sizes="auto">
+
+                                
+                                </a>
+                            </div>
+
+                            
+
+                            
+                            <div class="action-link">
+                                <a href="/collections/art-supplies" class="btn btn-img-block"
+                                    style="
+                                            background-color:#ffffff;
+                                            
+                                            
+                                            border-color:#ffffff;
+                                            
+                                            
+                                            color:#232323;
+                                            ">
+                                    
+<span>
+  Art Supplies
+</span>
+
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>	
+                                
+                    <div class="item col-6 col-md-12">
+                        <div class="sub-banner banner-item">
+                            <div class="img-box">
+                                <a href="/collections/school-supplies" class="animate-scale">
+                                
+<img data-src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/school-supplies-online-store-in-Pakistan-thestationerycompanypk-min_600x_crop_center.jpg?v=1601297434"
+                                    src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/school-supplies-online-store-in-Pakistan-thestationerycompanypk-min_600x_crop_center.jpg?v=1601297434" alt="thestationerycompany.pk" itemprop="logo"
+                                    class="lazyautosizes lazyloaded" data-sizes="auto">
+
+                                
+                                </a>
+                            </div>
+
+                            
+
+                            
+                            <div class="action-link">
+                                <a href="/collections/school-supplies" class="btn btn-img-block"
+                                    style="
+                                            background-color:#ffffff;
+                                            
+                                            
+                                            border-color:#ffffff;
+                                            
+                                            
+                                            color:#232323;
+                                            ">
+                                    
+<span>
+  Back To School
+</span>
+
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+            
+
+            
+            
+            
+            
+            
+            <div class="col-12 col-md-6 col-lg-4 three-blocks oneImage" data-init-slideshow data-dots="true" data-autoplay="true" data-autoplaySpeed="10000" data-fade="true">
+                <div class="item">
+                    <div class="sub-banner banner-item">
+                        <div class="img-box">
+                            <a href="/collections/journals-notebook" class="animate-scale">
+                                
+<img data-src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/TSC_Banner_600x_crop_center.jpg?v=1610448584"
+                                    src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/TSC_Banner_600x_crop_center.jpg?v=1610448584" alt="thestationerycompany.pk" itemprop="logo"
+                                    class="lazyautosizes lazyloaded" data-sizes="auto">
+
+                                
+                            </a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                
+                <div class="item">
+                    <div class="sub-banner banner-item">
+                        <div class="img-box">
+                            <a href="/collections/planners" class="animate-scale"><img data-src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/planners_600x_crop_center.jpg?v=1610544863"
+                                    src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/planners_600x_crop_center.jpg?v=1610544863" alt="thestationerycompany.pk" itemprop="logo"
+                                    class="lazyautosizes lazyloaded" data-sizes="auto">
+                            </a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                
+
+            </div>
+            
+            
+
+            
+            
+            
+            
+            
+            <div class="col-12 col-md-6 col-lg-4 three-blocks twoImage">
+                <div class="row">
+                    <div class="item col-6 col-md-12">
+                        <div class="sub-banner banner-item">
+                            <div class="img-box">
+                                <a href="/collections/office-supplies" class="animate-scale">
+                                
+<img data-src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/best-office-supplies-online-store-in-Pakistan-thestationerycompanypk-min_600x_crop_center.jpg?v=1601297529"
+                                    src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/best-office-supplies-online-store-in-Pakistan-thestationerycompanypk-min_600x_crop_center.jpg?v=1601297529" alt="thestationerycompany.pk" itemprop="logo"
+                                    class="lazyautosizes lazyloaded" data-sizes="auto">
+
+                                
+                                </a>
+                            </div>
+
+                            
+
+                            
+                            <div class="action-link">
+                                <a href="/collections/office-supplies" class="btn btn-img-block"
+                                    style="
+                                            background-color:#ffffff;
+                                            
+                                            
+                                            border-color:#ffffff;
+                                            
+                                            
+                                            color:#232323;
+                                            ">
+                                    
+<span>
+  Office Supplies
+</span>
+
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>	
+                                
+                    <div class="item col-6 col-md-12">
+                        <div class="sub-banner banner-item">
+                            <div class="img-box">
+                                <a href="/collections/toys" class="animate-scale">
+                                
+<img data-src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/best-toys-and-games-online-store-in-Pakistan-thestationerycompanyok-min_600x_crop_center.jpg?v=1601297604"
+                                    src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/best-toys-and-games-online-store-in-Pakistan-thestationerycompanyok-min_600x_crop_center.jpg?v=1601297604" alt="thestationerycompany.pk" itemprop="logo"
+                                    class="lazyautosizes lazyloaded" data-sizes="auto">
+
+                                
+                                </a>
+                            </div>
+
+                            
+
+                            
+                            <div class="action-link">
+                                <a href="/collections/toys" class="btn btn-img-block"
+                                    style="
+                                            background-color:#ffffff;
+                                            
+                                            
+                                            border-color:#ffffff;
+                                            
+                                            
+                                            color:#232323;
+                                            ">
+                                    
+<span>
+  Toys & Games
+</span>
+
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+            
+
+            
+        </div>
+        
+        
+    </div>
+</div>
+
+<style>
+
+
+@media (max-width: 767px) {
+        #custom-sub-banner-1599814884124  {
+            margin-bottom: 0px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        #custom-sub-banner-1599814884124  {
+            margin-bottom: 0px;
+        }
+    }
+   
+    @media (min-width: 1200px) {
+        #custom-sub-banner-1599814884124 .banner-title {
+            font-size: 20px;
+        }
+        
+        #custom-sub-banner-1599814884124 {
+            margin-bottom: 0px;
+        }
+    }	
+</style>
+
+
+
+
+
+
+</div><div id="shopify-section-16029138531e4a327a" class="shopify-section home-product-tabs-sections">
+
+<div class="home-product-tabs" id="product-tabs-16029138531e4a327a" data-home-product-tabs>
+    <div class="container">
+        
+        <div class="widget-title">   
+            <h3 class="box-title">
+                <span class="title"> 
+                
+<span>
+  Cute Stationery
+</span>
+
+                </span>
+            </h3>
+            
+        </div>
+        
+        
+        <div class="widget-product">
+            <ul class="list-product-tabs product-tabs-style3">
+                
+                <li>
+                <a href="#" data-target="#product-tab-bbc384f7-9afa-41ce-ae33-664f96384b0d" data-product-tabTop data-href="/collections/all-deals?view=json" class="tab-links active">
+                    
+<span>
+  Deals
+</span>
+
+                </a>
+                </li>
+                
+                <li>
+                <a href="#" data-target="#product-tab-34d8696f-729c-4adc-8368-d2fe8a70aaea" data-product-tabTop data-href="/collections/journals-notebook?view=json" class="tab-links">
+                    
+<span>
+  journals
+</span>
+
+                </a>
+                </li>
+                
+                <li>
+                <a href="#" data-target="#product-tab-d855f2e6-6a1d-4ddd-9b2b-8955f310f7ca" data-product-tabTop data-href="/collections/fancy-pen?view=json" class="tab-links">
+                    
+<span>
+  fancy pen
+</span>
+
+                </a>
+                </li>
+                
+                <li>
+                <a href="#" data-target="#product-tab-5b2fb315-83fc-40cc-9797-f8b4c38d7cfe" data-product-tabTop data-href="/collections/backpacks?view=json" class="tab-links">
+                    
+<span>
+  backpacks
+</span>
+
+                </a>
+                </li>
+                
+                <li>
+                <a href="#" data-target="#product-tab-83fc3ae3-7aba-4347-bd9a-992d7b34715b" data-product-tabTop data-href="/collections/gift-bag?view=json" class="tab-links">
+                    
+<span>
+  gift bags
+</span>
+
+                </a>
+                </li>
+                
+            </ul>
+            
+            <div class="product-tabs-content">
+                
+                <div class="tab-content active" data-product-TabContent id="product-tab-bbc384f7-9afa-41ce-ae33-664f96384b0d">
+                    <div class="products-grid row five-items" data-row="5">
+                        <div class="loading col-12"></div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" data-product-TabContent id="product-tab-34d8696f-729c-4adc-8368-d2fe8a70aaea">
+                    <div class="products-grid row five-items" data-row="5">
+                        <div class="loading col-12"></div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" data-product-TabContent id="product-tab-d855f2e6-6a1d-4ddd-9b2b-8955f310f7ca">
+                    <div class="products-grid row five-items" data-row="5">
+                        <div class="loading col-12"></div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" data-product-TabContent id="product-tab-5b2fb315-83fc-40cc-9797-f8b4c38d7cfe">
+                    <div class="products-grid row five-items" data-row="5">
+                        <div class="loading col-12"></div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" data-product-TabContent id="product-tab-83fc3ae3-7aba-4347-bd9a-992d7b34715b">
+                    <div class="products-grid row five-items" data-row="5">
+                        <div class="loading col-12"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+   
+
+    @media (max-width: 767px) {
+        #product-tabs-16029138531e4a327a {
+            margin-bottom: 40px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        #product-tabs-16029138531e4a327a {
+            margin-bottom: 40px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #product-tabs-16029138531e4a327a {
+            margin-bottom: 0px;
+        }
+    }	
+</style>
+
+
+
+
+</div><div id="shopify-section-1599715906262" class="shopify-section home-product-tabs-sections">
+
+<div class="home-product-tabs" id="product-tabs-1599715906262" data-home-product-tabs>
+    <div class="container">
+        
+        <div class="widget-title">   
+            <h3 class="box-title">
+                <span class="title"> 
+                
+<span>
+  Toys & Games
+</span>
+
+                </span>
+            </h3>
+            
+        </div>
+        
+        
+        <div class="widget-product">
+            <ul class="list-product-tabs product-tabs-style3">
+                
+                <li>
+                <a href="#" data-target="#product-tab-01e14ea2-68da-45e6-b628-8ed370422b4e" data-product-tabTop data-href="/collections/outdoor?view=json" class="tab-links active">
+                    
+<span>
+  Outdoor
+</span>
+
+                </a>
+                </li>
+                
+                <li>
+                <a href="#" data-target="#product-tab-1599715982685" data-product-tabTop data-href="/collections/arts-craft-play?view=json" class="tab-links">
+                    
+<span>
+  Arts & Craft Play
+</span>
+
+                </a>
+                </li>
+                
+                <li>
+                <a href="#" data-target="#product-tab-1599716157932" data-product-tabTop data-href="/collections/lego-bricks?view=json" class="tab-links">
+                    
+<span>
+  Lego & Bricks
+</span>
+
+                </a>
+                </li>
+                
+                <li>
+                <a href="#" data-target="#product-tab-1599716105185" data-product-tabTop data-href="/collections/learning-activity-toys?view=json" class="tab-links">
+                    
+<span>
+  Learning Toys
+</span>
+
+                </a>
+                </li>
+                
+            </ul>
+            
+            <div class="product-tabs-content">
+                
+                <div class="tab-content active" data-product-TabContent id="product-tab-01e14ea2-68da-45e6-b628-8ed370422b4e">
+                    <div class="products-grid row five-items" data-row="5">
+                        <div class="loading col-12"></div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" data-product-TabContent id="product-tab-1599715982685">
+                    <div class="products-grid row five-items" data-row="5">
+                        <div class="loading col-12"></div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" data-product-TabContent id="product-tab-1599716157932">
+                    <div class="products-grid row five-items" data-row="5">
+                        <div class="loading col-12"></div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" data-product-TabContent id="product-tab-1599716105185">
+                    <div class="products-grid row five-items" data-row="5">
+                        <div class="loading col-12"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+   
+
+    @media (max-width: 767px) {
+        #product-tabs-1599715906262 {
+            margin-bottom: 40px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        #product-tabs-1599715906262 {
+            margin-bottom: 40px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #product-tabs-1599715906262 {
+            margin-bottom: 0px;
+        }
+    }	
+</style>
+
+
+
+
+</div><div id="shopify-section-1541065669115" class="shopify-section home-new-arrivals-sections">
+
+
+<div class="new-arrivals-product" id="new-arrivals-1541065669115" data-new-arrivals-product>
+    <div class="container-fluid">
+        
+        <div class="widget-title not-before">   
+            <h3 class="box-title">
+                <span class="title"> 
+                
+<span>
+  New Arrivals
+</span>
+
+                </span>
+            </h3>
+            
+        </div>
+        
+        
+        <div class="widget-product">
+            <div class="products-grid row column-6" data-products-to-show="12" data-total-products="595">        
+                
+                
+                
+                
+            
+                <div class="grid-item col-6 col-md-4 col-lg-3 col-xl-2 ">
+                
+
+
+
+<div class="inner product-item" data-product-id="product-6560089243726">
+  <div class="inner-top">
+    <div class="product-top">
+      <div class="product-image image-swap">
+        <a href="/products/keep-smiling-metallic-acrylic-paint-30ml-pack-of-6" class="product-grid-image" data-collections-related="/collections/?view=related">
+          <img alt="Keep Smiling Metallic Acrylic Paint 30ml Pack of 6"
+               class="images-one lazyload"
+               data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/products/metallic-acrylic-paint-set_300x.jpg?v=1616995996"
+               data-srcie="//cdn.shopify.com/s/files/1/0290/8271/4190/products/metallic-acrylic-paint-set_300x.jpg?v=1616995996"
+               data-srcief="//cdn.shopify.com/s/files/1/0290/8271/4190/products/metallic-acrylic-paint-set_300x.jpg?v=1616995996"
+               data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+               data-aspectratio="1.0"
+               data-sizes="auto">
+
+          <span class="images-two">
+            <img alt="Keep Smiling Metallic Acrylic Paint 30ml Pack of 6"
+                 class="lazyload"
+                 data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/products/keep-smiling-metallic-acrylic-paint_300x.jpg?v=1616995996"
+                 data-srcie="//cdn.shopify.com/s/files/1/0290/8271/4190/products/keep-smiling-metallic-acrylic-paint_300x.jpg?v=1616995996"
+                 data-srcief="//cdn.shopify.com/s/files/1/0290/8271/4190/products/keep-smiling-metallic-acrylic-paint_300x.jpg?v=1616995996"
+                 data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                 data-aspectratio="1.0"
+                 data-sizes="auto">
+
+          </span>
+          
+        </a>
+      </div>
+
+      
+
+
+<!-- new product -->
+
+
+
+
+
+
+
+
+
+
+<div class="product-label">
+  
+  
+  
+  
+  <strong class="label new-label"  >
+    New
+  </strong>
+  <br>
+  
+  
+  
+  
+  
+</div>
+
+
+
+      
+      <div class="product-des abs-center">
+        
+<a class="wishlist" data-icon-wishlist href="#" data-product-handle="keep-smiling-metallic-acrylic-paint-30ml-pack-of-6" data-id="6560089243726">
+    <i class="fa fa-heart" aria-hidden="true"></i>
+    <span class="wishlist-text text-hover" >
+        Add to Wish List
+    </span>
+</a>
+ 
+
+        
+        <div class="action">
+          
+<form action="/cart/add" method="post" class="variants" id="grid-product-form--6560089243726" data-id="product-actions-6560089243726" enctype="multipart/form-data">
+  
+  
+  <input type="hidden" name="id" value="39295223824462" />
+  <input type="hidden" name="quantity" value="1" />
+  <button data-btn-addToCart class="btn add-to-cart-btn" type="submit" data-form-id="#grid-product-form--6560089243726" >
+    Add to Cart 
+  </button>
+  
+  
+</form>
+        </div>
+        
+
+        
+        <span class="shopify-product-reviews-badge" data-id="6560089243726"></span>
+        
+      </div>
+
+      
+      <div class="product-des abs-bottom">
+        
+        
+ 
+<ul class="sizes-list">
+    
+    
+    
+
+    
+    
+</ul>
+
+        
+
+        
+        <a class="quickview-button" href="javascript:void(0)" id="keep-smiling-metallic-acrylic-paint-30ml-pack-of-6" title="Quick View" >
+          <span >
+            Quick View
+          </span>
+        </a>
+        
+      </div>
+      
+    </div>
+
+    
+    <div class="product-bottom">
+      
+
+      <a class="product-title" href="/products/keep-smiling-metallic-acrylic-paint-30ml-pack-of-6">
+        
+<span>
+  Keep Smiling Metallic Acrylic Paint 30ml Pack of 6
+</span>
+
+      </a>
+
+      <div class="price-box">
+        
+        <div class="price-regular">
+          <span><span class=money>Rs.999</span></span>
+        </div>
+        
+      </div>
+
+      
+      <ul class="item-swatch">
+    
+  
+  	
+    
+  
+    
+    
+
+    
+  
+  	
+    
+  
+    
+    
+</ul>
+
+      
+    </div>
+
+    
+    <div class="product-details">
+      
+
+      <a class="product-title" href="/products/keep-smiling-metallic-acrylic-paint-30ml-pack-of-6">
+        
+<span>
+  Keep Smiling Metallic Acrylic Paint 30ml Pack of 6
+</span>
+
+      </a>
+
+      
+      <span class="shopify-product-reviews-badge" data-id="6560089243726" style="min-height: 20px; display: block; margin-bottom: 9px;"></span>
+      
+
+      <div class="short-description">
+        
+
+        
+        <div>
+          Keep Smiling Metallic Acrylic Paint 30ml Pack of 6
+        </div>
+        
+      </div>
+
+      <div class="price-box">
+        
+        <div class="price-regular">
+          <span><span class=money>Rs.999</span></span>
+        </div>
+        
+      </div>
+
+      
+      <ul class="item-swatch">
+    
+  
+  	
+    
+  
+    
+    
+
+    
+  
+  	
+    
+  
+    
+    
+</ul>
+
+      
+
+      
+      <div class="action">
+        
+<form action="/cart/add" method="post" class="variants" id="list-product-form-6560089243726" data-id="product-actions-6560089243726" enctype="multipart/form-data">
+  
+  
+  <input type="hidden" name="id" value="39295223824462" />
+  <input type="hidden" name="quantity" value="1" />
+  <button data-btn-addToCart class="btn add-to-cart-btn" type="submit" data-form-id="#list-product-form-6560089243726" >
+    Add to Cart 
+  </button>
+  
+  
+</form>
+      </div>
+      
+
+      
+<a class="wishlist" data-icon-wishlist href="#" data-product-handle="keep-smiling-metallic-acrylic-paint-30ml-pack-of-6" data-id="6560089243726">
+    <i class="fa fa-heart" aria-hidden="true"></i>
+    <span class="wishlist-text text-hover" >
+        Add to Wish List
+    </span>
+</a>
+ 
+    </div>
+  </div>
+</div>
+
+                </div>
+            
+                
+            
+                <div class="grid-item col-6 col-md-4 col-lg-3 col-xl-2 ">
+                
+
+
+
+<div class="inner product-item" data-product-id="product-6559659393102">
+  <div class="inner-top">
+    <div class="product-top">
+      <div class="product-image image-swap">
+        <a href="/products/seamiart-solid-watercolor-paint-set-of-90" class="product-grid-image" data-collections-related="/collections/?view=related">
+          <img alt="Seamiart Solid Watercolor Paint Set Of 90"
+               class="images-one lazyload"
+               data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Seamiart-Solid-Watercolor-Paint-Set-Of-90-2_300x.png?v=1616820808"
+               data-srcie="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Seamiart-Solid-Watercolor-Paint-Set-Of-90-2_300x.png?v=1616820808"
+               data-srcief="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Seamiart-Solid-Watercolor-Paint-Set-Of-90-2_300x.png?v=1616820808"
+               data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+               data-aspectratio="1.0"
+               data-sizes="auto">
+
+          <span class="images-two">
+            <img alt="Seamiart Solid Watercolor Paint Set Of 90"
+                 class="lazyload"
+                 data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Seamiart-Watercolor-Paint-Set-Of-90_300x.png?v=1616820808"
+                 data-srcie="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Seamiart-Watercolor-Paint-Set-Of-90_300x.png?v=1616820808"
+                 data-srcief="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Seamiart-Watercolor-Paint-Set-Of-90_300x.png?v=1616820808"
+                 data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                 data-aspectratio="1.0"
+                 data-sizes="auto">
+
+          </span>
+          
+        </a>
+      </div>
+
+      
+
+
+
+
+
+<!-- new product -->
+
+
+
+
+
+
+
+
+
+
+<div class="product-label">
+  
+  
+  
+  
+  <strong class="label new-label"  >
+    New
+  </strong>
+  <br>
+  
+  
+  
+  
+  
+</div>
+
+
+
+      
+      <div class="product-des abs-center">
+        
+<a class="wishlist" data-icon-wishlist href="#" data-product-handle="seamiart-solid-watercolor-paint-set-of-90" data-id="6559659393102">
+    <i class="fa fa-heart" aria-hidden="true"></i>
+    <span class="wishlist-text text-hover" >
+        Add to Wish List
+    </span>
+</a>
+ 
+
+        
+        <div class="action">
+          
+<form action="/cart/add" method="post" class="variants" id="grid-product-form--6559659393102" data-id="product-actions-6559659393102" enctype="multipart/form-data">
+  
+  
+  <input type="hidden" name="id" value="39294187929678" />
+  <input type="hidden" name="quantity" value="1" />
+  <button data-btn-addToCart class="btn add-to-cart-btn" type="submit" data-form-id="#grid-product-form--6559659393102" >
+    Add to Cart 
+  </button>
+  
+  
+</form>
+        </div>
+        
+
+        
+        <span class="shopify-product-reviews-badge" data-id="6559659393102"></span>
+        
+      </div>
+
+      
+      <div class="product-des abs-bottom">
+        
+        
+ 
+<ul class="sizes-list">
+    
+    
+    
+
+    
+    
+</ul>
+
+        
+
+        
+        <a class="quickview-button" href="javascript:void(0)" id="seamiart-solid-watercolor-paint-set-of-90" title="Quick View" >
+          <span >
+            Quick View
+          </span>
+        </a>
+        
+      </div>
+      
+    </div>
+
+    
+    <div class="product-bottom">
+      
+
+      <a class="product-title" href="/products/seamiart-solid-watercolor-paint-set-of-90">
+        
+<span>
+  Seamiart Solid Watercolor Paint Set Of 90
+</span>
+
+      </a>
+
+      <div class="price-box">
+        
+        <div class="price-regular">
+          <span><span class=money>Rs.4,350</span></span>
+        </div>
+        
+      </div>
+
+      
+      <ul class="item-swatch">
+    
+  
+  	
+    
+  
+    
+    
+
+    
+  
+  	
+    
+  
+    
+    
+</ul>
+
+      
+    </div>
+
+    
+    <div class="product-details">
+      
+
+      <a class="product-title" href="/products/seamiart-solid-watercolor-paint-set-of-90">
+        
+<span>
+  Seamiart Solid Watercolor Paint Set Of 90
+</span>
+
+      </a>
+
+      
+      <span class="shopify-product-reviews-badge" data-id="6559659393102" style="min-height: 20px; display: block; margin-bottom: 9px;"></span>
+      
+
+      <div class="short-description">
+        
+
+        
+        <div>
+          GREAT VALUE- Seamiart watercolor paint set includes 50 normal colors, 36 shimmers colors,4 neon colors and 1 water brush. Provide you a rich range of colors. All comes in a metal box,will satisfy all your requirements for travel and field...
+        </div>
+        
+      </div>
+
+      <div class="price-box">
+        
+        <div class="price-regular">
+          <span><span class=money>Rs.4,350</span></span>
+        </div>
+        
+      </div>
+
+      
+      <ul class="item-swatch">
+    
+  
+  	
+    
+  
+    
+    
+
+    
+  
+  	
+    
+  
+    
+    
+</ul>
+
+      
+
+      
+      <div class="action">
+        
+<form action="/cart/add" method="post" class="variants" id="list-product-form-6559659393102" data-id="product-actions-6559659393102" enctype="multipart/form-data">
+  
+  
+  <input type="hidden" name="id" value="39294187929678" />
+  <input type="hidden" name="quantity" value="1" />
+  <button data-btn-addToCart class="btn add-to-cart-btn" type="submit" data-form-id="#list-product-form-6559659393102" >
+    Add to Cart 
+  </button>
+  
+  
+</form>
+      </div>
+      
+
+      
+<a class="wishlist" data-icon-wishlist href="#" data-product-handle="seamiart-solid-watercolor-paint-set-of-90" data-id="6559659393102">
+    <i class="fa fa-heart" aria-hidden="true"></i>
+    <span class="wishlist-text text-hover" >
+        Add to Wish List
+    </span>
+</a>
+ 
+    </div>
+  </div>
+</div>
+
+                </div>
+            
+                
+            
+                <div class="grid-item col-6 col-md-4 col-lg-3 col-xl-2 ">
+                
+
+
+
+<div class="inner product-item" data-product-id="product-6552769265742">
+  <div class="inner-top">
+    <div class="product-top">
+      <div class="product-image image-swap">
+        <a href="/products/tear-off-paper-palette-36-sheet" class="product-grid-image" data-collections-related="/collections/?view=related">
+          <img alt="Tear-Off Paper Palette 36 Sheet"
+               class="images-one lazyload"
+               data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/products/oil-acrylic-and-watercolor-sheets-pad_300x.jpg?v=1616066609"
+               data-srcie="//cdn.shopify.com/s/files/1/0290/8271/4190/products/oil-acrylic-and-watercolor-sheets-pad_300x.jpg?v=1616066609"
+               data-srcief="//cdn.shopify.com/s/files/1/0290/8271/4190/products/oil-acrylic-and-watercolor-sheets-pad_300x.jpg?v=1616066609"
+               data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+               data-aspectratio="1.0"
+               data-sizes="auto">
+
+          <span class="images-two">
+            <img alt="Tear-Off Paper Palette 36 Sheet"
+                 class="lazyload"
+                 data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/products/HTB1A.KIarZnBKNjSZFG762t3FXat_300x.png?v=1616066609"
+                 data-srcie="//cdn.shopify.com/s/files/1/0290/8271/4190/products/HTB1A.KIarZnBKNjSZFG762t3FXat_300x.png?v=1616066609"
+                 data-srcief="//cdn.shopify.com/s/files/1/0290/8271/4190/products/HTB1A.KIarZnBKNjSZFG762t3FXat_300x.png?v=1616066609"
+                 data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                 data-aspectratio="1.0"
+                 data-sizes="auto">
+
+          </span>
+          
+        </a>
+      </div>
+
+      
+
+
+
+
+
+<!-- new product -->
+
+
+
+
+
+
+
+
+
+
+<div class="product-label">
+  
+  
+  
+  
+  <strong class="label new-label"  >
+    New
+  </strong>
+  <br>
+  
+  
+  
+  
+  
+</div>
+
+
+
+      
+      <div class="product-des abs-center">
+        
+<a class="wishlist" data-icon-wishlist href="#" data-product-handle="tear-off-paper-palette-36-sheet" data-id="6552769265742">
+    <i class="fa fa-heart" aria-hidden="true"></i>
+    <span class="wishlist-text text-hover" >
+        Add to Wish List
+    </span>
+</a>
+ 
+
+        
+        <div class="action">
+          
+<form action="/cart/add" method="post" class="variants" id="grid-product-form--6552769265742" data-id="product-actions-6552769265742" enctype="multipart/form-data">
+  
+  
+  <input type="hidden" name="id" value="39282197200974" />
+  <input type="hidden" name="quantity" value="1" />
+  <button data-btn-addToCart class="btn add-to-cart-btn" type="submit" data-form-id="#grid-product-form--6552769265742" >
+    Add to Cart 
+  </button>
+  
+  
+</form>
+        </div>
+        
+
+        
+        <span class="shopify-product-reviews-badge" data-id="6552769265742"></span>
+        
+      </div>
+
+      
+      <div class="product-des abs-bottom">
+        
+        
+ 
+<ul class="sizes-list">
+    
+    
+    
+
+    
+    
+</ul>
+
+        
+
+        
+        <a class="quickview-button" href="javascript:void(0)" id="tear-off-paper-palette-36-sheet" title="Quick View" >
+          <span >
+            Quick View
+          </span>
+        </a>
+        
+      </div>
+      
+    </div>
+
+    
+    <div class="product-bottom">
+      
+
+      <a class="product-title" href="/products/tear-off-paper-palette-36-sheet">
+        
+<span>
+  Tear-Off Paper Palette 36 Sheet
+</span>
+
+      </a>
+
+      <div class="price-box">
+        
+        <div class="price-regular">
+          <span><span class=money>Rs.550</span></span>
+        </div>
+        
+      </div>
+
+      
+      <ul class="item-swatch">
+    
+  
+  	
+    
+  
+    
+    
+
+    
+  
+  	
+    
+  
+    
+    
+</ul>
+
+      
+    </div>
+
+    
+    <div class="product-details">
+      
+
+      <a class="product-title" href="/products/tear-off-paper-palette-36-sheet">
+        
+<span>
+  Tear-Off Paper Palette 36 Sheet
+</span>
+
+      </a>
+
+      
+      <span class="shopify-product-reviews-badge" data-id="6552769265742" style="min-height: 20px; display: block; margin-bottom: 9px;"></span>
+      
+
+      <div class="short-description">
+        
+
+        
+        <div>
+          Tear off the paper palette for oil, acrylic, and watercolor painting. Cover color and design as per availability .36 wax-coated paper 60gsm. Thumbholes for easy handling and sticking. Just tear the sheet off and throw it away Size: 23 x...
+        </div>
+        
+      </div>
+
+      <div class="price-box">
+        
+        <div class="price-regular">
+          <span><span class=money>Rs.550</span></span>
+        </div>
+        
+      </div>
+
+      
+      <ul class="item-swatch">
+    
+  
+  	
+    
+  
+    
+    
+
+    
+  
+  	
+    
+  
+    
+    
+</ul>
+
+      
+
+      
+      <div class="action">
+        
+<form action="/cart/add" method="post" class="variants" id="list-product-form-6552769265742" data-id="product-actions-6552769265742" enctype="multipart/form-data">
+  
+  
+  <input type="hidden" name="id" value="39282197200974" />
+  <input type="hidden" name="quantity" value="1" />
+  <button data-btn-addToCart class="btn add-to-cart-btn" type="submit" data-form-id="#list-product-form-6552769265742" >
+    Add to Cart 
+  </button>
+  
+  
+</form>
+      </div>
+      
+
+      
+<a class="wishlist" data-icon-wishlist href="#" data-product-handle="tear-off-paper-palette-36-sheet" data-id="6552769265742">
+    <i class="fa fa-heart" aria-hidden="true"></i>
+    <span class="wishlist-text text-hover" >
+        Add to Wish List
+    </span>
+</a>
+ 
+    </div>
+  </div>
+</div>
+
+                </div>
+            
+                
+            
+                <div class="grid-item col-6 col-md-4 col-lg-3 col-xl-2 ">
+                
+
+
+
+<div class="inner product-item" data-product-id="product-6549462319182">
+  <div class="inner-top">
+    <div class="product-top">
+      <div class="product-image image-swap">
+        <a href="/products/cretacolor-aquarelle-oil-pastel-sticks-tin-of-20" class="product-grid-image" data-collections-related="/collections/?view=related">
+          <img alt="Cretacolor Aquarelle Oil Pastel Sticks Tin Of 20"
+               class="images-one lazyload"
+               data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Cretacolor-Aquarelle-Oil-Pastel-Sticks-Tin-Of-20_300x.jpg?v=1616241208"
+               data-srcie="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Cretacolor-Aquarelle-Oil-Pastel-Sticks-Tin-Of-20_300x.jpg?v=1616241208"
+               data-srcief="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Cretacolor-Aquarelle-Oil-Pastel-Sticks-Tin-Of-20_300x.jpg?v=1616241208"
+               data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+               data-aspectratio="1.0"
+               data-sizes="auto">
+
+          <span class="images-two">
+            <img alt="Cretacolor Aquarelle Oil Pastel Sticks Tin Of 20"
+                 class="lazyload"
+                 data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Cretacolor-Aquarelle-Oil-Pastel-Sticks-Tin-Of-20_300x.png?v=1616241208"
+                 data-srcie="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Cretacolor-Aquarelle-Oil-Pastel-Sticks-Tin-Of-20_300x.png?v=1616241208"
+                 data-srcief="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Cretacolor-Aquarelle-Oil-Pastel-Sticks-Tin-Of-20_300x.png?v=1616241208"
+                 data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                 data-aspectratio="1.0"
+                 data-sizes="auto">
+
+          </span>
+          
+        </a>
+      </div>
+
+      
+
+
+
+
+
+<!-- new product -->
+
+
+
+
+
+
+
+
+
+
+<div class="product-label">
+  
+  
+  
+  
+  <strong class="label new-label"  >
+    New
+  </strong>
+  <br>
+  
+  
+  
+  
+  
+</div>
+
+
+
+      
+      <div class="product-des abs-center">
+        
+<a class="wishlist" data-icon-wishlist href="#" data-product-handle="cretacolor-aquarelle-oil-pastel-sticks-tin-of-20" data-id="6549462319182">
+    <i class="fa fa-heart" aria-hidden="true"></i>
+    <span class="wishlist-text text-hover" >
+        Add to Wish List
+    </span>
+</a>
+ 
+
+        
+        <div class="action">
+          
+<form action="/cart/add" method="post" class="variants" id="grid-product-form--6549462319182" data-id="product-actions-6549462319182" enctype="multipart/form-data">
+  
+  
+  <input type="hidden" name="id" value="39275315036238" />
+  <input type="hidden" name="quantity" value="1" />
+  <button data-btn-addToCart class="btn add-to-cart-btn" type="submit" data-form-id="#grid-product-form--6549462319182" >
+    Add to Cart 
+  </button>
+  
+  
+</form>
+        </div>
+        
+
+        
+        <span class="shopify-product-reviews-badge" data-id="6549462319182"></span>
+        
+      </div>
+
+      
+      <div class="product-des abs-bottom">
+        
+        
+ 
+<ul class="sizes-list">
+    
+    
+    
+
+    
+    
+</ul>
+
+        
+
+        
+        <a class="quickview-button" href="javascript:void(0)" id="cretacolor-aquarelle-oil-pastel-sticks-tin-of-20" title="Quick View" >
+          <span >
+            Quick View
+          </span>
+        </a>
+        
+      </div>
+      
+    </div>
+
+    
+    <div class="product-bottom">
+      
+
+      <a class="product-title" href="/products/cretacolor-aquarelle-oil-pastel-sticks-tin-of-20">
+        
+<span>
+  Cretacolor Aquarelle Oil Pastel Sticks Tin Of 20
+</span>
+
+      </a>
+
+      <div class="price-box">
+        
+        <div class="price-regular">
+          <span><span class=money>Rs.3,000</span></span>
+        </div>
+        
+      </div>
+
+      
+      <ul class="item-swatch">
+    
+  
+  	
+    
+  
+    
+    
+
+    
+  
+  	
+    
+  
+    
+    
+</ul>
+
+      
+    </div>
+
+    
+    <div class="product-details">
+      
+
+      <a class="product-title" href="/products/cretacolor-aquarelle-oil-pastel-sticks-tin-of-20">
+        
+<span>
+  Cretacolor Aquarelle Oil Pastel Sticks Tin Of 20
+</span>
+
+      </a>
+
+      
+      <span class="shopify-product-reviews-badge" data-id="6549462319182" style="min-height: 20px; display: block; margin-bottom: 9px;"></span>
+      
+
+      <div class="short-description">
+        
+
+        
+        <div>
+          Aqua Stics are oil pastel sticks of exceptional water solubility, high pigmentation, and rich color laydown. In addition to their extra softness and brilliant colors, they score with their excellent lightfastness. They are highly recommended for numerous applications, such as...
+        </div>
+        
+      </div>
+
+      <div class="price-box">
+        
+        <div class="price-regular">
+          <span><span class=money>Rs.3,000</span></span>
+        </div>
+        
+      </div>
+
+      
+      <ul class="item-swatch">
+    
+  
+  	
+    
+  
+    
+    
+
+    
+  
+  	
+    
+  
+    
+    
+</ul>
+
+      
+
+      
+      <div class="action">
+        
+<form action="/cart/add" method="post" class="variants" id="list-product-form-6549462319182" data-id="product-actions-6549462319182" enctype="multipart/form-data">
+  
+  
+  <input type="hidden" name="id" value="39275315036238" />
+  <input type="hidden" name="quantity" value="1" />
+  <button data-btn-addToCart class="btn add-to-cart-btn" type="submit" data-form-id="#list-product-form-6549462319182" >
+    Add to Cart 
+  </button>
+  
+  
+</form>
+      </div>
+      
+
+      
+<a class="wishlist" data-icon-wishlist href="#" data-product-handle="cretacolor-aquarelle-oil-pastel-sticks-tin-of-20" data-id="6549462319182">
+    <i class="fa fa-heart" aria-hidden="true"></i>
+    <span class="wishlist-text text-hover" >
+        Add to Wish List
+    </span>
+</a>
+ 
+    </div>
+  </div>
+</div>
+
+                </div>
+            
+                
+            
+                <div class="grid-item col-6 col-md-4 col-lg-3 col-xl-2 ">
+                
+
+
+
+<div class="inner product-item" data-product-id="product-6545157128270">
+  <div class="inner-top">
+    <div class="product-top">
+      <div class="product-image image-swap">
+        <a href="/products/keep-smiling-artist-brush-set-of-12" class="product-grid-image" data-collections-related="/collections/?view=related">
+          <img alt="Keep Smiling Artist Brush Set Of 12"
+               class="images-one lazyload"
+               data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Keep-Smiling-Artist-Brush-Set-Of-12_300x.jpg?v=1616242459"
+               data-srcie="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Keep-Smiling-Artist-Brush-Set-Of-12_300x.jpg?v=1616242459"
+               data-srcief="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Keep-Smiling-Artist-Brush-Set-Of-12_300x.jpg?v=1616242459"
+               data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+               data-aspectratio="1.0"
+               data-sizes="auto">
+
+          <span class="images-two">
+            <img alt="Keep Smiling Artist Brush Set Of 12"
+                 class="lazyload"
+                 data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Keep-Smiling-Artist-Brush-Set-Of-12_300x.png?v=1616242459"
+                 data-srcie="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Keep-Smiling-Artist-Brush-Set-Of-12_300x.png?v=1616242459"
+                 data-srcief="//cdn.shopify.com/s/files/1/0290/8271/4190/products/Keep-Smiling-Artist-Brush-Set-Of-12_300x.png?v=1616242459"
+                 data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                 data-aspectratio="1.0"
+                 data-sizes="auto">
+
+          </span>
+          
+        </a>
+      </div>
+
+      
+
+
+
+
+
+<!-- new product -->
+
+
+
+
+
+
+
+
+
+
+<div class="product-label">
+  
+  
+  
+  
+  <strong class="label new-label"  >
+    New
+  </strong>
+  <br>
+  
+  
+  
+  
+  
+</div>
+
+
+
+      
+      <div class="product-des abs-center">
+        
+<a class="wishlist" data-icon-wishlist href="#" data-product-handle="keep-smiling-artist-brush-set-of-12" data-id="6545157128270">
+    <i class="fa fa-heart" aria-hidden="true"></i>
+    <span class="wishlist-text text-hover" >
+        Add to Wish List
+    </span>
+</a>
+ 
+
+        
+        <div class="action">
+          
+<form action="/cart/add" method="post" class="variants" id="grid-product-form--6545157128270" data-id="product-actions-6545157128270" enctype="multipart/form-data">
+  
+  
+  <input type="hidden" name="id" value="39266059845710" />
+  <input type="hidden" name="quantity" value="1" />
+  <button data-btn-addToCart class="btn add-to-cart-btn" type="submit" data-form-id="#grid-product-form--6545157128270" >
+    Add to Cart 
+  </button>
+  
+  
+</form>
+        </div>
+        
+
+        
+        <span class="shopify-product-reviews-badge" data-id="6545157128270"></span>
+        
+      </div>
+
+      
+      <div class="product-des abs-bottom">
+        
+        
+ 
+<ul class="sizes-list">
+    
+    
+    
+
+    
+    
+</ul>
+
+        
+
+        
+        <a class="quickview-button" href="javascript:void(0)" id="keep-smiling-artist-brush-set-of-12" title="Quick View" >
+          <span >
+            Quick View
+          </span>
+        </a>
+        
+      </div>
+      
+    </div>
+
+    
+    <div class="product-bottom">
+      
+
+      <a class="product-title" href="/products/keep-smiling-artist-brush-set-of-12">
+        
+<span>
+  Keep Smiling Artist Brush Set Of 12
+</span>
+
+      </a>
+
+      <div class="price-box">
+        
+        <div class="price-regular">
+          <span><span class=money>Rs.1,095</span></span>
+        </div>
+        
+      </div>
+
+      
+      <ul class="item-swatch">
+    
+  
+  	
+    
+  
+    
+    
+
+    
+  
+  	
+    
+  
+    
+    
+</ul>
+
+      
+    </div>
+
+    
+    <div class="product-details">
+      
+
+      <a class="product-title" href="/products/keep-smiling-artist-brush-set-of-12">
+        
+<span>
+  Keep Smiling Artist Brush Set Of 12
+</span>
+
+      </a>
+
+      
+      <span class="shopify-product-reviews-badge" data-id="6545157128270" style="min-height: 20px; display: block; margin-bottom: 9px;"></span>
+      
+
+      <div class="short-description">
+        
+
+        
+        <div>
+          
+Keep Smiling Artist Value Brush Set
+Size = 12 brushes
+Sizes: 4, 1/4, 6, 8, 12, 3/4, 1, 6, 2/0, 4, 1, 1
+
+        </div>
+        
+      </div>
+
+      <div class="price-box">
+        
+        <div class="price-regular">
+          <span><span class=money>Rs.1,095</span></span>
+        </div>
+        
+      </div>
+
+      
+      <ul class="item-swatch">
+    
+  
+  	
+    
+  
+  
+</ul>
+
+
+
+
+
+<style>
+     
+    @media (max-width: 767px) {
+        #new-arrivals-1599892991525 {
+            margin-bottom: 40px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        #new-arrivals-1599892991525 {
+            margin-bottom: 40px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #new-arrivals-1599892991525 {
+            margin-bottom: 50px;
+        }
+    }	
+</style>
+
+
+
+
+</div><div id="shopify-section-1541389364083" class="shopify-section home-custom-block-baner-sections">
+<div class="home-custom-block" id="custom-block-1541389364083">
+    <div class="container-fluid">
+        
+
+        <div class="row">
+            
+            
+            
+            <div class="col-12 no-padd">
+                <div class="custom-block-banner banner-large-img banner-parallax">
+                    <div class="img-box">
+                        <a href="/collections/fancy-pen">
+                            <div class="parallax-image" style="background-image: url(//cdn.shopify.com/s/files/1/0290/8271/4190/files/cute-stationery-online-Pakistan.jpg?v=1605678473);"></div> 
+                            
+
+                            
+                            <img data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/files/cute-stationery-online-Pakistan.jpg?v=1605678473" alt="thestationerycompany.pk" itemprop="logo"
+                                class="lazyload" data-sizes="auto">
+                                                    
+                        </a>
+
+                        
+                    </div>
+                
+                    
+                    <div class="banner-content inner abs_right">
+                        
+                        <h2 class="banner-heading"
+                            style="
+                                font-size: 30px;
+                                
+                                
+                                color:#232323;
+                                ">
+                        <span class="line" style="background-color: #232323;"></span>
+                        
+<span>
+  LIMITED EDITION
+</span>
+
+                        </h2>
+                        
+
+                        
+
+                        
+
+                        
+                        <a href="/collections/fancy-pen" class="banner-button btn"
+                        style="
+                                background-color:#232323;
+                                
+                                
+                                border-color:#232323;
+                                
+                                
+                                color:#ffffff;
+                                
+                                
+                                min-width:237px;
+                                ">
+                        
+<span>
+  Grab Your Favourite
+</span>
+
+                        </a>
+                        
+                    </div>
+                      
+                </div>
+
+                
+            </div>
+
+            
+            <style>
+            @media (min-width: 1200px) {
+                .banner-parallax .parallax-image {
+                    height: 400px;
+                }
+            }            
+            </style>
+            
+
+                    
+            
+        </div>
+    </div>
+</div>
+
+<style>
+    
+
+    @media (max-width: 767px) {
+        #custom-block-1541389364083 {
+            margin-bottom: 25px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        #custom-block-1541389364083 {
+            margin-bottom: 25px;
+        }
+    }
+  
+    @media (min-width: 1200px) {
+        #custom-block-1541389364083 {
+        margin-bottom: 30px;
+        }
+    }	
+
+    #custom-block-1541389364083 .img-box {
+        text-align: center;
+    }
+</style>
+
+
+
+</div><div id="shopify-section-1605078830ccf383d2" class="shopify-section home-store-info-sections"><section class="home-store-info" id="home-store-info-1605078830ccf383d2">
+    <div class="container">
+        <div class="row store-slider">
+            
+
+            
+
+            <div class="col-12 store-item">
+                <div class="inner">
+                    
+
+                    
+
+                    
+                    <p class="store-text">
+                        
+<span>
+  <h2>Welcome To Best Online Stationery Store In Pakistan</h2>
+The stationery company (TSC) is the best online stationery shop in Pakistan offering a hassle-free shopping experience. You can get high-quality stationery items at our store. We have all the latest fancy and durable collections on our website.<br data-mce-fragment="1"><br data-mce-fragment="1">TSC provides the best opportunity to enjoy the stress-free service. Our aim is to provide genuine and quality products to our clients. We are one of the best stationers located in Pakistan. Choose us for the perfect online shopping experience.<br data-mce-fragment="1"><br data-mce-fragment="1">To search for us, simply type the stationery store near me. Our online service is available 24/7. So, you can place online orders anytime.<br data-mce-fragment="1">
+<h3>
+<br>Stationery items online shopping in Pakistan </h3>
+<strong>Cute Stationery:</strong><br data-mce-fragment="1"><br data-mce-fragment="1">We are struggling to bring pretty items for people of all ages. These products are especially designed for ones who love to have adorable stuff. You can get the awesome cute stationery products from our online store at affordable prices. Our pretty products include; Personal Diaries, Journals, Notebooks, Daily, Weekly and Monthly
+Planner, Bookmarks, Enamel Pins, Water bottles, Backpacks for girls and boys, Gift bags and kids stationery set, etc.<br data-mce-fragment="1"><br data-mce-fragment="1"><strong>Art Supplies:</strong><br data-mce-fragment="1"><br data-mce-fragment="1">We know the importance of art and offer the best brands for drawing materials to our valued clients. TSC has professional art supplies collections. Our company provides the finest quality fine arts material that can produce the perfect result on your canvas or sketchbook. Our art supplies includes Art Accessories, Calligraphy Pen Set, Paintbrushes, Sketchbooks,
+Canvases, Easel stand, Paints and Mediums, Acrylic Paints, Watercolors, Fabric Color, Glass Paint, Oil Paints, Varnish, Oil and Thinner, and Art Kits. <br data-mce-fragment="1">We are facilitating our clients with best-recognized brands such as; Winsor Newton, Daler Rowney, Marie's, Faber-Castell, Derwent, Stabilo, Sakura, Giotto, LYRA, Giorgione, Keep Smiling, ZIG kuretake, and much more.<br data-mce-fragment="1"><br data-mce-fragment="1"><br data-mce-fragment="1"><strong>Office Supplies:</strong><br data-mce-fragment="1"><br data-mce-fragment="1">The workplace always requires all types of stationery items to facilitate working employees. We offer all kinds of products that are required to meet official needs. Our items include; Office Desk Set, Desk Organizer, Pen Stand, File Folders, Sticky Notes, Key Tags, Table Pen, Highlighters, Markers, Paper Cutter, Stamp, Calculators, Punch Machine, Paper Cutter, Paper Shredder and many more.<br data-mce-fragment="1">Brands: The brands for office supplies are Piano, dollar, DELI, M&G, Snowmen, Bahadur, Flexoffice, and UNI-BALL.<br data-mce-fragment="1"><br data-mce-fragment="1"><br data-mce-fragment="1"><strong>School supplies:</strong><br data-mce-fragment="1"><br data-mce-fragment="1">Our stationery store is the largest Online Stationery Store in Pakistan. We have all kinds of educational stationery items which are required for the students of Schools,
+Colleges, and Universities. Our products are extremely so made, that they can easily survive with the naughty kids for long as well. Our school stationery includes; School Bags, Pencil, Eraser, Gel Pens, Glue Sticks, Geometry Box,
+Lunch Box, Sharpeners, Fountain Pens, Inks, Whiteboards, Pencil Case, Kids Paints and all other
+products regarding school stationery. <br data-mce-fragment="1">Brands: We are offering our clients the following brand to ensure that they don’t have to run for buying stationery items again and again due to bad quality of products. The brands are Piano, dollar, Bahadur, DELI, M&G, ORO, and UNI-BALL.<br data-mce-fragment="1"><br data-mce-fragment="1"><strong>Toys & Games:</strong><br data-mce-fragment="1"><br data-mce-fragment="1">You can see the toys and games at our online store. We have thousands of them for all age groups including arts and craft play, kids learning toys, wooden toys, board games and puzzles, cars and trains, clay dough, fashion dolls, outdoor toys, sports toys, etc. Our prices are market competitive and quality is exceptional. Thus, consider our online store when you are searching for valuable toys.<br data-mce-fragment="1"><br data-mce-fragment="1">Brand: Our Company is offering the best toys brands which are recognized worldwide. We provide the best quality products to ensure that our clients are happy and satisfied. We have the toys of the following brands: <br data-mce-fragment="1"><br data-mce-fragment="1">WinFun, Barbie, Bburago, Crayola, Dede, LEPIN, Maisto, Play-Doh, National Geographic Toys, Nerf, Cra-Z-Art, Little Tikes, Hot Wheels, and Hasbro.<br data-mce-fragment="1"><br data-mce-fragment="1"><strong>Accessories:</strong><br data-mce-fragment="1"><br data-mce-fragment="1">We have a wide variety of different products available at our store other than office and school supplies to facilitate our clients to the next level. You can also find mobile accessories, computer accessories, memory cards for the camera, USB, and hand-free.<br data-mce-fragment="1">
+<h4>
+<br>What Makes Us Different from Other Online Stationery Platforms?</h4>
+<strong>High-quality products:</strong><br data-mce-fragment="1"><br data-mce-fragment="1">We offer 100% original products to our clients. So, when searching for high-standard stationery
+products, you can consider us.<br data-mce-fragment="1"><br data-mce-fragment="1"><strong>Available 24/7:</strong><br data-mce-fragment="1"><br data-mce-fragment="1">Our service is designed for the convenience of our customers so; our customer support team is receiving your order 24/7. You can place the order anytime.<br data-mce-fragment="1"><br data-mce-fragment="1"><strong>Affordable:</strong><br data-mce-fragment="1"><br data-mce-fragment="1">The rates of our products are affordable and we make sure that our clients can get the best products within their budget.  <br data-mce-fragment="1"><br data-mce-fragment="1"><strong>Delivery:</strong><br data-mce-fragment="1"><br data-mce-fragment="1">We deliver our products all over Pakistan. Our company offers home delivery services for high-quality stationery products in Karachi, Lahore, Islamabad and all other cities of Pakistan. Our delivery timings are 3-5 working days. Further, we always deliver your products on time and never give chance to complaint.<br data-mce-fragment="1">
+</span>
+
+                    </p>
+                                 
+                </div>
+            </div>
+            
+        </div>    
+    </div>
+</section>
+
+<style>
+    @media (max-width: 767px) {
+        #home-store-info-1605078830ccf383d2 {
+            margin-bottom: 40px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        #home-store-info-1605078830ccf383d2 {
+            margin-bottom: 40px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #home-store-info-1605078830ccf383d2 {
+            margin-bottom: 55px;
+        }
+    }
+    
+    #home-store-info-1605078830ccf383d2 {
+        border-color: #e0e0e0;
+    }
+
+    #home-store-info-1605078830ccf383d2 .store-item {
+        border-color: #e3e3e3;
+    }
+</style>
+
+
+</div><!-- END content_for_index -->
+        </main>    
+            
+                
+        <div id="shopify-section-footer" class="shopify-section"><style>
+  .site-footer {
+    
+      background: #232323;
+    
+    
+    	
+  }
+  
+  .site-footer .newsletter .input-group-field {
+  	background-color: rgba(0,0,0,0);
+    color: #717171;
+    border-color: #3b3b3b;
+  }
+  
+  .site-footer .newsletter ::-webkit-input-placeholder {
+    color: #717171;
+  }
+  
+  .site-footer .newsletter ::-moz-placeholder {
+    color: #717171;
+  }
+  
+  .site-footer .newsletter :-ms-input-placeholder {
+    color: #717171;
+  }
+  
+  .site-footer .newsletter :-moz-placeholder {
+    color: #717171;
+  }
+  
+  .site-footer .newsletter .btn {
+  	background-color: #3b3b3b;
+    border-color: #3b3b3b;
+    color: #ffffff;
+  }
+  
+  .site-footer .newsletter .btn:hover {
+  	background-color: #ffffff;
+    border-color: #3b3b3b;
+    color: #3b3b3b;
+  }
+  
+  .site-footer,
+  .foot-title {
+    color: #ffffff; 
+  }
+
+  
+  
+  .site-footer a,
+  .header-vertical-tpl .footer-default .newsletter-des {
+    color: #969696;
+  }
+  
+  .site-footer a:hover {
+    color: #ffffff; 
+  }
+  
+  .site-footer .foot-link>span:before {
+  	background-color: #ffffff; 
+  }
+
+  .footer-social li a {
+  	color: #141414; 
+    background-color: #ffffff;
+  }
+  
+  .footer-bottom {
+  	background-color: #232323; 
+      
+    border-top: 1px solid #3b3b3b;
+     
+  }
+  
+  .footer-bottom,
+  .footer-bottom address,
+  .footer-bottom address a {
+  	color: #969696; 
+  }    
+  
+  .footer-bottom address a:hover {
+  	color: #969696; 
+  }
+  
+  @media (max-width: 767px) {
+    .footer-top .col-footer .dropdow-mb {
+      border-bottom: 1px solid #3b3b3b; 
+    }
+  }
+</style>
+
+<footer class="site-footer footer-default" role="contentinfo">
+    
+    <div class="footer-top">       
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-12 col-md-12 col-lg-6 col-xl-7 footer-col-left">
+                    <div class="row">
+                        
+
+                        
+                        <div class="col-footer col-12 col-md-6">
+                        
+                        <h3 class="foot-title dropdow-mb">
+                            
+<span>
+  Information
+</span>
+
+                        </h3>
+                        
+
+                        <ul>
+                            
+                            <li>
+                            <a href="/pages/about-us" title="About Us" class="foot-link">
+                                
+<span>
+  About Us
+</span>
+
+                            </a>
+                            </li>
+                            
+                            <li>
+                            <a href="/pages/contact-us" title="Contact Us" class="foot-link">
+                                
+<span>
+  Contact Us
+</span>
+
+                            </a>
+                            </li>
+                            
+                            <li>
+                            <a href="/pages/delivery-policy" title="Delivery Policy" class="foot-link">
+                                
+<span>
+  Delivery Policy
+</span>
+
+                            </a>
+                            </li>
+                            
+                            <li>
+                            <a href="/pages/faq-s" title="FAQ’s" class="foot-link">
+                                
+<span>
+  FAQ’s
+</span>
+
+                            </a>
+                            </li>
+                            
+                            <li>
+                            <a href="/pages/privacy-policy" title="Privacy Policy" class="foot-link">
+                                
+<span>
+  Privacy Policy
+</span>
+
+                            </a>
+                            </li>
+                            
+                            <li>
+                            <a href="/pages/return-policy" title="Return Policy" class="foot-link">
+                                
+<span>
+  Return Policy
+</span>
+
+                            </a>
+                            </li>
+                            
+                        </ul>
+                        
+                        </div>
+                        
+                        <div class="col-footer col-12 col-md-6">
+                        
+                        <h3 class="foot-title dropdow-mb">
+                            
+<span>
+  Shop
+</span>
+
+                        </h3>
+                        
+
+                        <ul>
+                            
+                            <li>
+                            <a href="/collections/items" title="Shop" class="foot-link">
+                                
+<span>
+  Shop
+</span>
+
+                            </a>
+                            </li>
+                            
+                            <li>
+                            <a href="/blogs/news" title="Blog News" class="foot-link">
+                                
+<span>
+  Blog News
+</span>
+
+                            </a>
+                            </li>
+                            
+                            <li>
+                            <a href="/collections/new-arrivals" title="New Arrivals" class="foot-link">
+                                
+<span>
+  New Arrivals
+</span>
+
+                            </a>
+                            </li>
+                            
+                            <li>
+                            <a href="/pages/keywords-sitemap" title="Keywords Sitemap" class="foot-link">
+                                
+<span>
+  Keywords Sitemap
+</span>
+
+                            </a>
+                            </li>
+                            
+                            <li>
+                            <a href="/collections/best-selling-collection" title="Best Selling Products" class="foot-link">
+                                
+<span>
+  Best Selling Products
+</span>
+
+                            </a>
+                            </li>
+                            
+                        </ul>
+                        
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <div class="col-12 col-md-12 col-lg-6 col-xl-5 footer-col-right">
+                    
+                    <div class="footer-social">
+                        
+                        <h3 class="social-title foot-title">
+                        
+<span>
+  Stay Connected
+</span>
+
+                        </h3>
+                        
+                        
+                        <div class="groups-block">
+                        
+
+
+<ul class="social-icons">
+  
+  <li class="facebook">
+    <a href="https://web.facebook.com/thestationerycompany.pk" title="Facebook" target="_blank">
+        
+        <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+        
+    </a>
+  </li>
+  
+  
+  <li class="twitter">
+    <a href="https://twitter.com/thestationerycompany" title="Twitter" target="_blank">
+      <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  
+  
+  
+  
+  
+  <li class="instagram">
+    <a href="https://www.instagram.com/thestationerycompany.pk/" title="Instagram" target="_blank">
+      <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  
+  
+  
+     
+  
+  
+  
+  <li class="youtube">
+    <a href="https://thestationerycompany.pk" title="YouTube" target="_blank">
+      <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  
+  
+</ul>
+ 
+
+                        
+                        <div class="fb-like-code">
+                            
+<span>
+  <span>LIKE US <i>on </i> FACEBOOK</span>
+</span>
+                
+                            <div id="fb-root"></div>
+<script async="" defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0" nonce=""></script>
+<div class="fb-like" data-href="https://web.facebook.com/thestationerycompany.pk" data-width="124" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="footer-newsletter">
+                        
+                        <h3 class="newsletter-title foot-title">
+                        
+<span>
+  Sign up for our Newsletter
+</span>
+
+                        </h3>
+                        
+
+                        
+                        
+                        <section class="newsletter">
+  <div class="block-content">
+    
+
+
+<form method="post" action="/contact" id="contact_form" accept-charset="UTF-8" class="input-group"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" />
+    <input type="hidden" name="contact[tags]" value="newsletter">
+    <input class="input-group-field" type="email" name="contact[email]"  aria-label="Email Address" placeholder="enter your email address" required="required">
+    <input class="btn" type="submit" value="Submit"></form>
+  </div>
+</section>
+
+                    </div>
+                    
+                </div>
+                
+            </div>    
+        </div>
+    </div>
+    
+    
+    
+    <div class="footer-bottom">
+        <div class="container">
+            
+
+            
+            <address>
+                
+                <div>
+                © 2020 The Stationery Company. All Rights Reserved. <br>Our Sister Site <a style="color:white;" href="https://printnpack.pk/">Online Shopping Store In Pakistan</a>
+<p style="float:right;">
+Address: 42 Chamberlain Road, Anarkali Bazar, Lahore, Punjab, Pakistan 54000
+<br>Email: thestationerycompanypk@gmail.com
+<br>Phone: 03-111-622-622
+<br>Opening Hours:
+Monday to Saturday: 10am - 7pm
+</p>
+                </div>
+                
+            </address>
+
+            
+
+            
+            
+            
+            
+            
+
+            
+
+            <ul class="payment-methods">	
+                
+
+<li>
+                <img data-src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/mobile-receipt-visa_x32.png?v=1588845656" alt="visa" class="lazyload " data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-sizes="auto" data-img
+>
+                </li>
+                
+                
+
+                
+
+<li>
+                <img data-src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/mobile-receipt-mastercard_x32.png?v=1588845655" alt="master" class="lazyload " data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-sizes="auto" data-img
+>
+                </li>
+                
+                
+
+<li>
+                <img data-src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/online-shopping-with-jazz-cash_x32.png?v=1599566418" alt="maestro" class="lazyload " data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-sizes="auto" data-img
+>
+                </li>
+                
+                
+
+                
+
+<li>
+                <img data-src="//cdn.shopify.com/s/files/1/0290/8271/4190/files/Online-shopping-with-easy-paisa-in-Pakistan_x32.png?v=1599566429" alt="solo" class="lazyload " data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-sizes="auto" data-img
+>
+                </li>
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+            </ul>
+
+            
+
+            
+
+            
+        </div>
+    </div>
+    
+</footer>
+
+
+
+</div>
+        
+
+        
+        <div class="footbar-fixed">
+            <div id="shopify-section-someone-purchased" class="shopify-section">
+
+<style>
+@media (min-width: 1200px) {
+    .product-notification{
+        
+        left: 15px;
+        
+    }
+} 
+</style>
+
+
+
+
+<script>
+
+    $(document).ready(function() {
+      $('.product-notification').addClass('notifi-left');
+      if($('#accept-cookies').hasClass('cookies-left')){
+        $('.footbar-fixed').addClass('all-left')
+      }
+    })
+
+</script>
+
+
+
+
+<style>
+    @media (max-width: 767px) {
+        .product-notification {
+            display:none;
+        }
+    }
+</style>
+</div>
+            <div id="shopify-section-GDPR-modal" class="shopify-section">
+
+
+
+
+
+
+</div>
+        </div>
+        
+      
+    </div>
+
+      
+    
+    <!-- Footer scripts -->
+<script src="//cdn.shopify.com/s/files/1/0290/8271/4190/t/3/assets/vendor.min.js?v=1769586537383445384" defer></script>
+<script src="//cdn.shopify.com/s/files/1/0290/8271/4190/t/3/assets/api.jquery.js?v=1356861586360731999" async></script>
+<script src="//cdn.shopify.com/shopifycloud/shopify/assets/themes_support/option_selection-fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f.js" async></script>
+<script>
+  window.show_auto_currency = false;
+</script>
+
+	
+<script src="//cdn.shopify.com/s/javascripts/currencies.js" type="text/javascript"></script>
+<script src="//cdn.shopify.com/s/files/1/0290/8271/4190/t/3/assets/jquery.currencies.min.js?v=9316595392847367790" type="text/javascript"></script>
+		
+<script>      
+    // Pick your format here:  
+    // Can be 'money_format' or 'money_with_currency_format'
+    Currency.format = 'money_format';
+
+    var shopCurrency = 'PKR';
+if(shopCurrency != 'PKR'){
+	window.location = window.location.href + '?currency='+shopCurrency;
+}
+    /* Sometimes merchants change their shop currency, let's tell our JavaScript file */
+    Currency.moneyFormats[shopCurrency].money_with_currency_format = "Rs.{{amount_no_decimals}} PKR";
+    Currency.moneyFormats[shopCurrency].money_format = "Rs.{{amount_no_decimals}}";
+
+    var cookieCurrency = Currency.cookie.read();
+
+    // Fix for customer account pages 
+    $('span.money span.money').each(function() {
+        $(this).parent('span.money').removeClass('money');
+    });
+
+    // Add precalculated shop currency to data attribute 
+    $('span.money').each(function() {
+        $(this).attr('data-currency-PKR', jQuery(this).html());
+    });
+
+        // Select all your currencies buttons.
+    var currencySwitcher = $('#currencies'),
+        currencyItem = currencySwitcher.find('[data-currency]');
+
+    // When the page loads.
+    if (cookieCurrency == null || cookieCurrency == shopCurrency) {
+        Currency.currentCurrency = shopCurrency;
+    }
+    else {
+      	var flag = 0;
+        currencyItem.each(function(){
+          if(cookieCurrency == $(this).data('currency')){
+            flag = 1;
+          }
+        });
+        if(flag == 0 ){
+          cookieCurrency = shopCurrency;
+        }
+        Currency.currentCurrency = cookieCurrency;
+        currencySwitcher.find('.active').removeClass('active').parent().find('[data-currency=' + Currency.currentCurrency + ']').addClass('active');
+        Currency.convertAll(shopCurrency, cookieCurrency);	
+    };
+        
+    currencyItem.on('click', function(e) {
+        e.preventDefault();
+        
+        if($(this).hasClass('active')) return false;
+        
+        currencyItem.removeClass('active');
+        
+        $(this).addClass('active');
+        
+        var label = $('#currencies').prev('[data-currency-label]');
+        
+        if(label.length && label.is(':visible')) {
+        var item = $(this).html();
+        
+        label.html(item);
+        
+        currencySwitcher.slideUp(300);
+        };
+        
+        var cur = $(this).attr('data-currency');
+        
+        cur != Currency.currentCurrency && Currency.convertAll(Currency.currentCurrency, cur);
+    });
+
+    $('body').on('refreshCurrency', function() {
+        Currency.convertAll(shopCurrency, jQuery("#currencies .active").attr('data-currency'));
+    });      
+</script>
+<script src="//cdn.shopify.com/s/files/1/0290/8271/4190/t/3/assets/jquery.sticky.js?v=3798168850363400783" defer></script>
+<script src="//cdn.shopify.com/s/files/1/0290/8271/4190/t/3/assets/ella.min.js?v=16333265033367935900"></script>
+<!-- <script src="//cdn.shopify.com/s/files/1/0290/8271/4190/t/3/assets/halo.js?v=7846345762968470846"></script> -->
+
+
+
+    
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/template7/1.4.0/template7.js"></script>
+
+<script>
+    (function ($) {
+        var pluginName = 'Search',
+        namespace = 'plugin_' + pluginName;
+
+        function Plugin(element) {
+            this.headerSearch = $(element);
+            this.headerSearchForm = this.headerSearch.find('.header-search__form');
+            this.headerInput = this.headerSearch.find('.header-search__input');
+            this.headerSearchResults = this.headerSearch.find('.header-search__results-wrapper');
+            this.searchResultsTemplate = Template7.compile($('#search-results-template').html());
+            this.PopularProducts = this.headerSearch.find(".header-search__product");
+            this.searchMode = "product";
+            this.searchTrending = $(".quickSearchResultsWrap .header-search__trending .item");
+            this.trending = $(".header-search__trending");
+            this.searchWrapper = this.headerSearch.find('.quickSearchResultsWrap');
+
+            this.headerInput.focus(function(e){
+                e.stopPropagation();
+                
+                $(this).closest('.header-search').find('.quickSearchResultsWrap').show();
+            });
+
+            $(document).mouseup(function (e) {
+                var container = $(".search-form");
+
+                if (!container.is(e.target) && container.has(e.target).length === 0){
+                    container.find('.quickSearchResultsWrap').hide();
+                }
+            });
+
+            this.headerInput.on('focusin', $.proxy(this._focusin, this));
+
+
+            this.headerInput.on('keyup', $.proxy(this._initSearch, this));
+        };
+
+        Plugin.prototype._initSearch = function(event) {
+            var target = $(event.currentTarget);
+
+            if ((event.keyCode ? event.keyCode : event.which) != 13) {
+                clearTimeout(target.data('timeout'));
+                target.data('timeout', setTimeout($.proxy(this._doSearch, this), 250));
+            }
+        };
+
+        Plugin.prototype._doSearch = function(event) {
+
+            if (this.headerInput.val().trim() === '') {
+                this.headerSearchResults.empty();
+                this.searchTrending.show();
+                this.PopularProducts.show();
+                this.searchWrapper.show();
+                this.trending.show();
+
+                return; 
+            }
+            else {
+                this.headerSearchResults.html(this.searchResultsTemplate({is_loading: true}));
+            }
+
+            if (this.headerInput.val().length > 2) {
+                this.searchWrapper.hide();
+                this._doCompleteSearch();
+            }
+            else {
+                this.headerSearchResults.html(this.searchResultsTemplate({is_show: false}));
+                this.searchTrending.show();
+                this.PopularProducts.show();
+                this.searchWrapper.show();
+            }
+
+            if(this.searchTrending.css('display') == 'none') {
+                this.trending.hide();
+            } else {
+                this.trending.show();
+            }
+        };
+
+        Plugin.prototype._doCompleteSearch = function(event) {
+            var self = this;
+
+            $.ajax({
+                method: 'GET',
+                url: window.router + '/search?view=json',
+                dataType: 'json',
+                data: {
+                    q: this.headerInput.val() + '*',
+                    type: this.searchMode
+                }
+            }).then(function(data) {
+
+                self.headerSearchResults.html(self.searchResultsTemplate({
+                    is_show: true,
+                    is_loading: false,
+                    results: data['results'],
+                    has_results: (data['results'].length > 0),
+                    results_count: data['results_count'],
+                    results_label: data['results_label'],
+                    results_url: (data['url'] + '&type=' + self.searchMode)
+                }));
+
+                self.PopularProducts.hide();
+
+
+                var value = self.headerInput.val().toLowerCase();
+                if (data && data.length) {
+                    self.searchTrending.filter(function(e) {
+                        $(this).toggle($(this).find('.highlight span').text().toLowerCase().indexOf(value) > -1);
+                    });
+                    self.trending.show();
+                }
+                else {
+                    self.trending.hide();
+                }
+
+                self.searchWrapper.show();
+            });
+        };
+
+        $.fn[pluginName] = function(options) {
+            var method = false,
+            methodArgs = arguments;
+
+            if (typeof options == 'string') {
+                method = options;
+            }
+
+            return this.each(function() {
+                var plugin = $.data(this, namespace);
+
+                if (!plugin && !method) {
+                    $.data(this, namespace, new Plugin(this, options));
+                } else if (method) {
+                    callMethod(plugin, method, Array.prototype.slice.call(methodArgs, 1));
+                }
+            });
+        };
+    }(jQuery));
+
+    $(function() {
+        $('[data-ajax-search]').Search();
+    });
+</script>
+
+    
+    
+    <div class="translate-header" data-translate-header>
+        <div id="dropdown-customer" class="ct_login">  
+  <div class="customer-title">
+    <a href="javascript:void(0)" title="Close" class="close-customer close">
+      <svg aria-hidden="true" data-prefix="fal" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-times fa-w-10 fa-2x"><path fill="currentColor" d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z" class=""></path></svg>
+      <span >
+        Close
+      </span>
+    </a>
+    
+    <h5 >
+      Customer Login:
+    </h5>
+    
+  </div>
+  
+  <div class="customer-content">
+    
+    <div class="customer-inner login-customer">
+      <form accept-charset="UTF-8" action="/account/login" method="post">
+        <input name="form_type" type="hidden" value="customer_login" />
+        <input name="utf8" type="hidden" value="✓" />
+
+        <div class="ct-login">
+          <div class="form-group">
+            <label for="customer_email">
+              <span >
+                Email Address
+              </span>
+              <em>*</em>
+            </label>
+            <input class="form-control" type="email" value="" name="customer[email]" placeholder="Email Address" >
+          </div>
+          <div class="form-group">
+            <label for="customer_password">
+              <span >
+                Password
+              </span>
+              <em>*</em>
+            </label>
+            <input class="form-control" type="password" value="" placeholder="Password" name="customer[password]" >
+          </div>
+
+          <div class="action-btn">
+            <input type="submit" class="btn btn-login"  value="Login">
+            <a class="text-hover forgot-password" href="/account/login#recover" >
+              Forgot your password?
+            </a>
+          </div>
+        </div>
+
+        <div class="ct-register">
+          <a href="/account/register" class="btn btn-register" >
+            Create An Account
+          </a>
+        </div>
+      </form>
+    </div>
+    
+  </div>
+</div>
+        
+
+<div id="dropdown-cart"> 
+  <div class="cart-title">
+    <a href="javascript:void(0)" title="Close" class="close-cart close">
+      <svg aria-hidden="true" data-prefix="fal" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-times fa-w-10 fa-2x"><path fill="currentColor" d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z" class=""></path></svg>
+      <span >
+        Close
+      </span>
+    </a>
+    
+    <h5 >
+      Shopping Cart:
+    </h5>
+  </div>
+  
+  <div class="no-items">
+    <p class="cart_empty"  >
+      Your cart is currently empty.
+    </p>
+    <div class="text-continue">
+      <a class="btn btn-continue"  href="/collections/all" >
+        Continue Shopping
+      </a>
+    </div>
+  </div>
+
+  <div class="has-items">
+    <ol class="mini-products-list">  
+      
+    </ol>
+
+    <div class="summary">                
+      <div class="total">
+        <span class="label">
+          <span >
+            Total:
+          </span>
+        </span>
+        <span class="price">
+          <span class=money>Rs.0</span>
+        </span> 
+      </div>
+    </div>
+
+    
+    <div class="actions">
+      <button class="btn btn-checkout" onclick="window.location='/checkout'" >
+        Check Out
+      </button>
+      <a class="btn btn-view-cart" href="/cart" >
+        View Cart
+      </a>      
+    </div>
+    
+  </div>
+</div>
+
+    </div>
+    
+
+    
+
+  
+  	
+
+        
+    <div class="loading-modal modal"><div></div><div></div><div></div><div></div></div>
+
+<div class="ajax-lookbook-modal">
+    <div class="overlay"></div>
+    <div class="ajax-modal-content">
+        <a href="javascript:void(0)" data-close-lookbook-modal class="close close-modal">
+        <svg aria-hidden="true" data-prefix="fal" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-times fa-w-10 fa-2x"><path fill="currentColor" d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z" class=""></path></svg>
+        </a>
+        <div class="lookbook-content"></div>
+    </div>  
+</div>
+
+<div class="ajax-error-modal modal">
+    <div class="modal-inner">
+        <div class="ajax-error-message"></div>
+    </div>
+</div>
+
+<div class="ajax-success-modal halo-modal" data-ajax-cart-success>
+    <div class="modal-overlay">
+        <div class="halo-modal-content">
+            <a class="close close-modal" title="Close">
+                <svg aria-hidden="true" data-prefix="fal" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-times fa-w-10 fa-2x"><path fill="currentColor" d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z" class=""></path></svg>
+            </a>
+            
+            <div class="halo-modal-body">
+                
+                <div class="cart-popup-content"></div>
+                <div class="cart-popup-coll-related"></div> 
+
+                
+            </div>
+        </div>     
+  </div>
+</div>
+
+
+<div class="ajax-success-modal halo-modal ajax-quickview" data-quickview-modal>
+    <div class="modal-overlay">
+        <div class="halo-modal-content">
+            <a class="close close-modal" title="Close">
+                <svg aria-hidden="true" data-prefix="fal" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-times fa-w-10 fa-2x"><path fill="currentColor" d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z" class=""></path></svg>
+            </a>
+            
+            <div class="halo-modal-body"></div>
+        </div>     
+    </div>
+</div>
+
+
+
+<div class="newsletter-success-modal">
+    <div class="modal-overlay"></div>
+        <div class="halo-modal-content">
+            <a class="close close-modal" title="Close">
+                <svg aria-hidden="true" data-prefix="fal" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-times fa-w-10 fa-2x"><path fill="currentColor" d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z" class=""></path></svg>
+            </a>
+            
+            <div class="halo-modal-body">
+                <i class="fa fa-check" aria-hidden="true"></i>
+                <span>You have successfully subscribed!</span>
+            </div>
+        </div>     
+    
+</div>
+
+
+
+
+    
+    
+<div class="wrapper-newsletter halo-modal" data-newsletter data-delay="7000" data-expire="1">
+    <div class="modal-overlay">
+        <div class="halo-modal-content">
+            <a class="close close-window" title="Close">
+                <svg aria-hidden="true" data-prefix="fal" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-times fa-w-10 fa-2x"><path fill="currentColor" d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z" class=""></path></svg>
+            </a>
+            
+            <div class="halo-modal-body">
+                <div class="column-left">
+                    <img data-srcset="//cdn.shopify.com/s/files/1/0290/8271/4190/files/backtoschool-pakistan_360x360.png?v=1600178666" class="lazyload" data-sizes="auto">
+                    
+                </div>
+                
+                <div class="column-right">
+                    
+                    <h2 class="title">
+                        
+<span>
+  Join Our Mailing List
+</span>
+
+                    </h2>
+                    
+                    
+                    
+                    <div class="des">
+                        
+<span>
+  Sign Up for exclusive updates,  <br>new arrivals & insider-only discounts
+</span>
+
+                    </div>
+                    
+                    
+                    <div id="mailchimp-email-subscibe" class="newsletter">
+                        <div id="mc_embed_signup">
+                            
+
+
+<form method="post" action="/contact" id="contact_form" accept-charset="UTF-8" class="input-group"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" />
+    <input type="hidden" name="contact[tags]" value="newsletter">
+    <input class="input-group-field" type="email" name="contact[email]"  aria-label="Email Address" placeholder="enter your email address" required="required">
+    <input class="btn" type="submit" value="Submit"></form>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="icon-social">
+                        
+
+
+<ul class="social-icons">
+  
+  <li class="facebook">
+    <a href="https://web.facebook.com/thestationerycompany.pk" title="Facebook" target="_blank">
+        
+        <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+        
+    </a>
+  </li>
+  
+  
+  <li class="twitter">
+    <a href="https://twitter.com/thestationerycompany" title="Twitter" target="_blank">
+      <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  
+  
+  
+  
+  
+  <li class="instagram">
+    <a href="https://www.instagram.com/thestationerycompany.pk/" title="Instagram" target="_blank">
+      <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  
+  
+  
+     
+  
+  
+  
+  <li class="youtube">
+    <a href="https://thestationerycompany.pk" title="YouTube" target="_blank">
+      <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  
+  
+</ul>
+
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+      
+    
+    
+    
+    <div class="wrapper-overlay"></div>
+
+<!-- spurit_stp-added -->
+<!-- "snippets/spurit_stp-theme-snippet.liquid" was not rendered, the associated app was uninstalled -->
+<!-- /spurit_stp-added -->
+
+
+	<script async src="https://loox.io/widget/N1ZM5vp-it/loox.1606998129263.js?shop=the-stationery-company.myshopify.com"></script>

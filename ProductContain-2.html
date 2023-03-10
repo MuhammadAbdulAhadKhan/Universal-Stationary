@@ -1,0 +1,841 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Universal Stationery</title>
+<link type="text/css" rel="icon" href="Images/logo/Exclusive-Logo-6.png"/>
+
+<!--BootStrap Version 4-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--Bootstrap version4 End-->
+    
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Fontawesome CDN End-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/Style.css">
+    <style>
+	@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.nav-brand img{
+	width:350px;
+	padding:0px;
+	margin:50px;
+
+}
+
+body{
+	background-image:url(download.jpg);
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
+}
+
+.menu-bar{
+	background:#333;
+	text-align:center;
+}
+.menu-bar ul{
+	display:inline-flex;
+	list-style:none;
+	color:#930;
+}
+.menu-bar ul li{
+	width:120px;
+	margin:15px;
+	padding:15px;
+}
+.menu-bar ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+.active,.menu-bar ul li:hover{
+	background:darkgrey;
+	border-radius:3px;
+}
+.menu-bar .fa{
+	margin:8px;
+}
+.sub-menu-1{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display:block;
+	position:absolute;
+	background:#666;
+	margin-top:15px;
+	margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display:block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #FFFFFF;
+	background:transparent;
+	border-radius:0;
+	text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:lastchild{
+	border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color:black;
+}
+
+p{
+    color:#FFFFFF;
+}
+
+p1 {color:#FF2B95;}	
+
+p2 {color:#4A4A4A; font-size:20px;}
+/*Form 1*/
+
+*
+        {
+            box-sizing: border-box;
+        }
+        .main
+        {
+            width: 80%;
+            height: 500px;
+            box-shadow: 10px 15px 18px;
+            margin: 70px auto;
+            border-radius:10px
+        }
+        .left
+        {
+            width: 50%;
+            height: 500px;
+            float: left;
+        }
+        .right
+        {
+            width: 50%;
+            float: right;
+            height: 500px;
+            background-color:#C60;
+        }
+
+
+
+/*Form 2*/
+
+*
+        {
+            box-sizing: border-box;
+        }
+        .main2
+        {
+            width: 80%;
+            height: 1100px;
+            box-shadow: 10px 15px 18px;
+            margin: 70px auto;
+            border-radius:10px
+        }
+        
+		.font-weight-bolder
+        {
+            font-weight: 800;
+        }
+        #btn
+        {
+            width: 150px;
+            height: 35px;
+            background-color: rgb(230, 179, 50);
+            border-radius: 18px;
+            font-weight: bold;
+            border: none;
+            transition: 1s all ease;
+        }
+        #btn:hover
+        {
+            background-color: rgb(11, 139, 11);
+            color: black;
+        }
+    form
+    {
+        width: 90%;
+        margin: 5px auto;
+    }
+    i:hover
+    {
+        cursor: pointer;
+    }
+	
+	/* Bordered form */
+form1 {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+#text1, input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+label{color:#FF158A;}
+
+li{color:#0000A0; font-family:Arial, Helvetica, sans-serif;}
+
+
+    </style>
+</head>
+
+
+<body>
+
+ <div class="main-wrapper">
+    <div class="nav-background">
+        <div class="mobile-logo">
+            <img src="Images/logo/Exclusive-Logo-6.png" alt="">
+            <h7 style="font-family:'Monotype Corsiva'; font-size:27px; color:#FF158A"><b><big>Universal Stationery</big></b></h7></center><br>
+        </div>
+        <div class="mobile-nav">
+            <div class="cart">
+                <div class="flex items-center">
+                    <img src="./icons/cart-dark.svg" alt="">
+                    <a href="#">0 Items - ($0.00)</a>
+                </div>
+            </div>
+            <div class="nav-top">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="catageroies.html">Categories</a>
+                    </li>
+
+                    <li>
+                        <a href="product.html">Products</a>
+                    </li>
+
+                    <li>
+                        <a href="AboutUs.html">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="contact-us.html">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="loginpage.html">Log in</a>
+                    </li>
+
+                    <li>
+                        <a href="RegisterNow.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact flex items-center">
+                <i class="fa fa-phone"></i>
+                <div>
+                    <h5>Call us: (+84) 123 456 789</h5>
+                    <h6>E-mail : www.universal stationary.com</h6>
+                </div>
+            </div>
+            <div class="time flex items-center">
+                <i class="fa fa-clock-o"></i>
+                <div>
+                    <h5>Working Hours:</h5>
+                    <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="site-content-wrapper scaled">
+        <div class="nav-trigger">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-bar-chart">
+                <line x1="12" y1="20" x2="12" y2="10" />
+                <line x1="18" y1="20" x2="18" y2="4" />
+                <line x1="6" y1="20" x2="6" y2="16" /></svg>
+        
+        </div>
+    <!--First Header-->
+    <header class="site-header header-03">
+        <div class="header-top">
+            <div class="container">
+                <div class="top-message">
+                    <p>
+                        <span>
+                          <b>FREE SHOPPING</b> ON ORDERS ABOVE <b>RS.5000/-</b> OR MORE!
+                        </span>
+                    </p>    
+                </div>    
+            </div>
+        </div>
+    </header> 
+    <!--First Header End-->
+
+    <div class="site-content">
+        <header class="topbar">
+            <div class="container flex justify-between items-center">
+                <div class="icons">
+                    <a href="https://www.facebook.com/110-Universal-Stationery-100209174692734" target="_blank"><img src="./icons/facebook.svg" title="Facebook"></a>
+                   
+                    <a href="https://twitter.com/Universalstati0" target="_blank"><img src="./icons/twitter.svg" title="Twitter"></a>
+                    
+                    <a href="https://www.instagram.com/universalstationery/" target="_blank"><img src="./icons/instagram.svg" title="Instagram"></a>   
+                </div>
+                <div class="auth flex items-center">
+                    <div>
+                        <img src="icons/user-icon.svg" alt="">
+                        <a href="loginpage.html" title="Login">Log in</a>
+                    </div>
+                    <span class="divider">|</span>
+    
+                    <div>
+                        <img src="icons/edit.svg" alt="">
+                        <a href="RegisterNow.html" title="Register Now">Register Now</a>
+                    </div>
+                    <span class="divider">|</span>
+    
+                    <div>
+                        <img src="icons/cart.svg" alt="">
+                        <a href="#" title="cart">0 items - ($0.00 )</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+         <!--Navigation Bar Start-->
+            <nav>
+                <div class="top">
+                    <div class="container flex justify-between">
+                        <div class="contact flex items-center">
+                            <i class="fa fa-phone"></i>
+                            <div>
+                                <h5>Call Us: (+92) 123 456 789</h5>
+                                <h6>E-mail : support@stationary.com</h6>
+                            </div> 
+                        </div>
+                        <div class="branding">
+                            <center>
+                            <img src="Images/logo/Exclusive-Logo-6.png"/>
+                            <h7 style="font-family:'Monotype Corsiva'; font-size:27px; color:#FF158A"><b><big>Universal Stationery</big></b></h7></center><br>
+                        </div>
+                        <div class="time flex items-center">
+                            <i class="fa fa-clock-o"></i>
+                            <div>
+                                <h5>Working Hours:</h5>
+                                <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="navbar magic-shadow">
+                        <div class="container flex justify-center item-center">
+                            <ul class="flex">
+                                <li style="margin-left:184px;"><a href="index.html" class="active">Home</a></li>
+                                <li><a href="catageroies.html">Catagories<i class="fa fa-angle-down"></i></a>
+                                    
+                                </li>
+                                <li><a href="product.html">Products<i class="fa fa-angle-down"></i></a>
+                                   
+                                </li>
+                                <li><a href="Brand.html">Brands</a></li>
+                                
+                                <li><a href="AboutUs.html">About Us</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-----Navbar End----->
+
+<div class="main">
+<div class="right" style="background:var(--lip)">
+<div style="width: 90%;margin: 5px auto;">
+<br>
+<h5 style="color:#FF2B95 ; font-size:25px; text-align:justify"><b>12” Triangular Architect Scale Ruler Architectural Scale (Imperial Measurements) - Ideal for Architects, Engineers, Draftsman and Students.</b></h5>
+<br>
+<center>
+<h4 style="font-size:40px; font-family:'Arial Black', Gadget, sans-serif; color:#555">Rs. 239</h4></center>
+<br>
+
+<center>
+<a href="form.html" target="_blank" class="btn-primary"><button class="btn btn-secondary flex items-center justify-between" style="width:50%; font-size:53px; text-align:center; color:var(--lip);background-color:#FF2B95">Buy Now</button></a>
+</center>
+
+<div class="stars flex justify-center items-center">
+      <img src="./icons/start-filled.svg" alt=""/>
+         <img src="./icons/start-filled.svg" alt=""/>
+            <img src="./icons/start-filled.svg" alt=""/>
+               <img src="./icons/start-filled.svg" alt=""/>
+    <img src="./icons/start-filled.svg" width="100px" height="100px" alt=""/>
+      <img src="./icons/start-filled.svg" alt=""/>
+         <img src="./icons/start-filled.svg" alt=""/>
+            <img src="./icons/start-filled.svg" alt=""/>
+               <img src="./icons/start-filled.svg" alt=""/>
+                                                        </div>
+<center>
+<h8 style="font-size:24px; color:#555; font-family:'Arial Black', 'Britannic Bold'">5 Star Rating </h8></center>
+</div>
+</div>
+
+<div class="left">
+
+<a href="Images/Products images/7f169a9434853eea0c813ed.jpg" target="_blank"><img src="Images/Products images/7f169a9434853eea0c813ed.jpg" style="width:100%; height:100%"></a>
+
+
+</div>
+</div>
+
+
+
+
+<div class="main2" style="background:var(--lip)">
+
+<div style="width: 90%; margin: 5px auto;">
+<br>
+<p1 style="font-size:22px">Product details of 12” Triangular Architect Scale Ruler Architectural Scale (Imperial Measurements) - Ideal for Architects, Engineers, Draftsman and Students.</p1>
+
+<pre>
+<table>
+<br>
+<tr>
+01 : The markings are engraved onto each plastic ruler - will not rub off.
+<br>
+02 : Designed using CADD by an engineer who works with architects every weekday (and some weekends).
+<br>
+03 : Value pack: two 12" plastic triangular scale rulers in one box. If you're looking for something more high-end, see the
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;other scale rulers we offer.
+<br>
+04 : The Architect Imperial Scale includes: full scale (16), 3/16" & 3/32" on the red side; 3" & 1 1/2", 3/4" & 3/8" on the
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uncolored side; 1/4" & 1/8", 1" & 1/2" on the blue side.
+<br>
+05 : The Engineer Scale includes scales: 1:10 & 1:50 on the green side; 1:20 & 1:40 on the black side; 1:30 & 1:60 on the
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uncolored side. Unlike some , this one is labeled both ways so that it can be easily
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;read right to left or left to right as needed.
+</tr>
+
+</table></pre>
+
+<br><br>
+<p1>
+Architects and Engineers together at last! Be sure to have this set of scale rulers on hand for any of your drafting,measuring,or estimating needs.Whether you need an architect's scale or an engineer's scale,they are both included in the box set.Makes a great gift!.</p1>
+
+<br><br>
+<h7>Specifications of 12” Triangular Architect Scale Ruler Architectural Scale (Imperial Measurements) - Ideal for Architects, Engineers, Draftsman and Students.</h7>
+
+<pre>
+<table>
+
+
+<ul>
+<tr>
+<th>
+1: Brand<br>
+<li>Retail Experience&nbsp;&nbsp;&nbsp;&nbsp;</li>
+</th>
+
+<th style="padding:2%">
+2: SKU<br>
+<li>105892983_PK-1253590099</li>
+</th>
+</tr>
+
+</ul>
+
+</table></pre>
+
+<h7><b>
+What’s in the box</b></h7>
+<br><br>
+<p2>12” Triangular Architect Scale Ruler Architectural Scale (Imperial Measurements) - Ideal for Architects, Engineers, Draftsman and Students.
+</p2>
+          </div>
+                </div>
+
+
+                <!-- The Modal -->
+<div id="id02" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form id="form1" class="modal-content animate" action="/action_page.php" style="background-image:url(Images/logo/951-9515208_business-card-background-black-and-white-visiting-images.png); width:1050px; height:auto">
+  
+    <div class="imgcontainer">
+    
+      <h9 style=" background-color:#53B3EC ;color:#FF2B95; font-size:80px; font-family:'Arial Black', Gadget, sans-serif">eProject&nbsp;&nbsp;<p1 style="font-size:40px; color:#F2680D">Universal Stationery</p1></h9>
+    </div>
+
+    <div class="container">
+    <div style="width: 90%;margin: 5px auto; text-align:justify">
+    <img src="Images/logo/Exclusive-Logo-6.png" width="100" height="75"/>
+    <h8 style=" color:#95A956 ; font-size:25px; font-family:'Arial Black', Gadget, sans-serif">Muhammad Kamran</h8>
+    
+    <br>
+    
+    <p1 style=" color:#FF158A; font-family:'Arial Black', Gadget, sans-serif; font-size:20px">
+    
+    <li>Website&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:&nbsp;&nbsp;&nbsp;&nbsp;www.UniversalStationery.com.pk</li>
+
+    <li>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:&nbsp;&nbsp;&nbsp;&nbsp;Jawwadk149@gmail.com</li>
+
+    <li>Student Id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:&nbsp;&nbsp;&nbsp;&nbsp;788-20-1280293</li>
+
+    <li>Phone Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:&nbsp;&nbsp;&nbsp;&nbsp;0312-682-0441</li>
+
+    <li>Batch Code No#.&nbsp;&nbsp;&nbsp;
+:&nbsp;&nbsp;&nbsp;&nbsp;2010G2</li>
+
+    <li>Center Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;Aptech</li>
+    
+    </p1>
+    <br><br>
+    <center>
+     <a href="ProductContain-2.html"><h7 style=" color:#F00; font-family:'Arial Black', Gadget, sans-serif; font-size:30px">OK</h7></a>
+   </center>
+      </div>
+    </div>
+
+    
+  </form>
+</div>
+
+<!-- The Modal -->
+<div id="id03" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form id="form1" class="modal-content animate" action="/action_page.php" style="background-image:url(Images/logo/951-9515208_business-card-background-black-and-white-visiting-images.png); width:1050px; height:auto">
+  
+    <div class="imgcontainer">
+    
+      <h9 style=" background-color:#53B3EC ;color:#FF2B95; font-size:80px; font-family:'Arial Black', Gadget, sans-serif">eProject&nbsp;&nbsp;<p1 style="font-size:40px; color:#F2680D">Universal Stationery</p1></h9>
+    </div>
+
+    <div class="container">
+    <div style="width: 90%;margin: 5px auto; text-align:justify">
+    <img src="Images/logo/Exclusive-Logo-6.png" width="100" height="75"/>
+    <h8 style=" color:#95A956 ; font-size:25px; font-family:'Arial Black', Gadget, sans-serif">Abdul Ahad Masood Khan</h8>
+    
+    <br>
+    
+    <p1 style=" color:#FF158A; font-family:'Arial Black', Gadget, sans-serif; font-size:20px">
+    
+    <li>Website&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:&nbsp;&nbsp;&nbsp;&nbsp;www.UniversalStationery.com.pk</li>
+
+    <li>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:&nbsp;&nbsp;&nbsp;&nbsp;aahadkhan088@gmail.com</li>
+
+    <li>Student Id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:&nbsp;&nbsp;&nbsp;&nbsp;788-20-1284719</li>
+
+    <li>Phone Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:&nbsp;&nbsp;&nbsp;&nbsp;0320-208-5017</li>
+
+    <li>Batch Code No#.&nbsp;&nbsp;&nbsp;
+:&nbsp;&nbsp;&nbsp;&nbsp;2010G2</li>
+
+    <li>Center Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;Aptech</li>
+    
+    </p1>
+    <br><br>
+    <center>
+     <a href="ProductContain-2.html"><h7 style=" color:#F00; font-family:'Arial Black', Gadget, sans-serif; font-size:30px">OK</h7></a>
+   </center>
+      </div>
+    </div>
+
+    
+  </form>
+</div>
+<!--Footer1 Start-->
+            <footer>
+                <div class="container">
+                    <div class="box">
+                    
+                        <h3>About Us</h3>
+                        <br>
+                        <p style="text-align:justify">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</p>
+                    </div>
+                    <div class="box">
+                        <h3>Quick Links</h3>
+                        <br>
+                        <table>
+                        
+                        <tr>
+                        <th>&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;
+                                <a href="index.html">Home</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </th>
+            <th>
+                            
+                            <a href="Brand.html">Brands</a>
+                            
+            </th>
+            </tr></table><br>
+            <table>
+                        
+                        <tr>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;
+                            
+                                <a href="product.html">Products</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </th>
+            <th>
+                            
+                            <a href="catageroies.html">Catageroies</a>
+                            
+            </th>
+            </tr></table><br>
+            <table>
+                        
+                        <tr>
+                        <th>&nbsp;&nbsp;&nbsp;&nbsp;
+                            
+                                <a href="AboutUs.html">About-Us</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </th>
+            <th>
+                            
+                            <a href="contact-us.html">Contact-Us</a>
+                            
+            </th>
+            </tr></table>
+                    </div>            
+                    <div class="box">
+                        <h3>Follow US Socially</h3>
+                        <br>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/110-Universal-Stationery-100209174692734" target="_blank">
+                                        <img src="./icons/facebook.svg" alt="">
+                                        <span>Facebook</span>
+                                    </a>
+                                </li>
+                
+                                <li>
+                                    <a href="https://twitter.com/Universalstati0" target="_blank">
+                                        <img src="./icons/twitter.svg" alt="">
+                                        <span>Twitter</span>
+                                    </a>                       
+                                </li>
+                                
+                                <li>
+                                    <a href="https://www.instagram.com/universalstationery/" target="_blank">
+                                        <img src="./icons/instagram.svg" alt="">
+                                        <span>Instagram</span>
+                                    </a> 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>            
+                    <div class="box instagram-api">
+                        <h3>Instagram</h3>
+                        <div class="post-wrap">
+                            <div>
+
+                                <img src="./Images/Pelican/pelican.png" alt="">
+                            </div>
+            
+                            <div>
+                                <img src="./Images/Dollar/Dollar.png" alt="">
+                            </div>
+            
+                            <div>
+                                <img src="./Images/Bahadur/Bahadur.png" alt="">
+                            </div>
+            
+                            <div>
+                                <img src="./Images/Master/Master.png" alt="">
+                            </div>
+            
+                            <div>
+                                <img src="./Images/Deli/Deli_logo-1.png" alt="">
+                            </div>
+            
+                            <div>
+                                <img src="./Images/GoldFish/Goldfish-2.png" alt="">
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="copyright item-center justify-center">
+                
+   Copyright @ 2021 .All rights reserved by
+
+<button onclick="document.getElementById('id02').style.display='block'" class="btn btn-secondary fflex items-center justify-between"  style="width:15%; color:#FF158A; font-size:16px; text-align:center;">Mohammad Kamran</button> & 
+
+<button onclick="document.getElementById('id03').style.display='block'" class="btn btn-secondary fflex items-center justify-between"  style="width:20%; color:#FF158A; text-align:center;">Abdul Ahad Masood Khan</button>
+
+                </div>
+            </footer>
+ 
+        </div>                            
+    </div>   
+    
+    <script src="./js/app.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+            
+    <script>
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+    
+    <script>
+// Get the modal
+var modal = document.getElementById('id03');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>

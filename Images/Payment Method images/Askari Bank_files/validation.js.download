@@ -1,0 +1,60 @@
+﻿
+function valLogin() {
+    var Error = "";
+    if ($('.clstxtLoginId').val() == "") {
+        Error += "Please enter valid Login ID. <br/> ";
+    }
+    if ($('.clstxtPassword').val() == "" || $('.clstxtPassword').val().length < 8) {
+        Error += "Please enter a valid Password. <br/> ";
+    }
+    if ($('.clstxtCaptcha').val() == "") {
+        Error += "Please enter a valid Captcha. <br/> ";
+    }
+    if (!$("#chkTermCondition").is(":checked")) {
+        Error += "Please check the box to accept Terms and Conditions to proceed further. <br/> ";
+    }
+    //if (!$("#chkGuidelines").is(":checked")) {
+    //    Error += "Please check the box to accept Security Alert Guidelines. <br/> ";
+    //}
+    if (Error != "") {
+        $('#lblError').html(Error);
+        $('#divError').show();
+        return false;
+    }
+    else {
+        $('#divError').hide();
+        return true;
+    }
+}
+
+function valAccount() {
+    var Error = "";
+    if ($('.clsddlAccount').val() == "") {
+        Error += "Select a valid Account. <br/> ";
+    }
+    if (Error != "") {
+        $('#lblError').html(Error);
+        $('#divError').show();
+        return false;
+    }
+    else {
+        $('#divError').hide();
+        return true;
+    }
+}
+
+function valTransfer() {
+    var Error = "";
+    if ($('.clstxtPIN').val() == "" || $('.clstxtPIN').val().length != 4) {
+        Error += "Please Enter a valid 4-digit PIN. <br/> ";
+    }
+    if (Error != "") {
+        $('#lblError').html(Error);
+        $('#divError').show();
+        return false;
+    }
+    else {
+        $('#divError').hide();
+        return true;
+    }
+}

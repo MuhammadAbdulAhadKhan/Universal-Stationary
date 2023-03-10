@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://secure.askaribank.com.pk/Net%20Connect/Login.aspx -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	Askari Bank
+</title><link href="./Askari Bank_files/style.css" rel="stylesheet">
+    <script src="./Askari Bank_files/jquery.js.download"></script>
+    <script src="./Askari Bank_files/validation.js.download"></script>
+    <script>
+        $(document).ready(function () {
+            RefreshCaptcha();
+        });
+        function RefreshCaptcha() {
+            var img = document.getElementById("imgCaptcha");
+            img.src = "CaptchaHandler.ashx?query=" + Math.random();
+        }
+        $(function () {
+            $(".bigbutton").bind("click", function () {
+                $(".modal-mask, .modal-popup").fadeIn();
+                $(".modal-popup").animate({
+                    width: '80%',
+                    left: '10%',
+                    height: 'auto',
+                    top: '10%'
+                });
+            });
+            $('.modal-mask').bind("click", function (event) {
+                Close_PopUp(event);
+            });
+            function Close_PopUp(event) {
+                if ($('.modal-popup').is(':visible') && event.which != 3) {
+                    $(".modal-mask, .modal-popup").fadeOut();
+                }
+            }
+            $(".model-close").bind("click", function (event) {
+                Close_PopUp(event);
+            });
+        });
+    </script>
+</head>
+<body>
+    <form method="post" action="https://secure.askaribank.com.pk/Net%20Connect/Login.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="_TSM_HiddenField_" id="_TSM_HiddenField_" value="k2t9wOhd77wiPBzEYcLHn1IyjSn8I1uTd36wBUrrh4I1">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="kZtwjEvHU8XwW8Mc+avzU24joqQuN6DfsISVJrilkdFZebO0kX7DzIT26b4+SkLgr5Cp6LA7k8sCruUfiYWxuRJdFihL1JY/fHLoopXirnJK8KnIncGgf7xtKKmsX1bAemJ+ML+xFW9wXvWLDFOTLhMPnthl56/uICOwRbGPLxEgauDlVTomjiK4Uyq2ih6BOnBjxQyD125EDiwnyc6dER2jRgDio5x4ChhDkgNz1Qu52lSv48S6f+tVmSNrxUIiu9G2ZQicH2sAI4Omkn6vqbE6q5V/qfGQ4WalXqOFlryaCdp4XKlwjjYf/S0EYjgHglSVyVV1b3QB15S++DXBRw==">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./Askari Bank_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./Askari Bank_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="./Askari Bank_files/ScriptResource(1).axd" type="text/javascript"></script>
+<script src="./Askari Bank_files/CombineScriptsHandler.axd" type="text/javascript"></script>
+<script src="./Askari Bank_files/WebResource(1).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3B178D84">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="fDOGYMwksGsD+a/+ihT0MvStAoe+HhgqrbkR5bF/yDGyaPA8D/OBeNYSMtGkVukArU7JFPrYT6rWEVue3NEBiPwfkMOWeK6wwUVhPw2u6X/u4hwbN6H9MJjZP1vOuuRycg2JOtOtzXzWwNF3OEAR99BMi4PJw3BC/bNUUwsLsHS80WD3eevS59jA0lf3nZSZJ8pwQxLFwR2aEqZ7Jb8k5/JlgLIMU9JYCQNYcCr4yNY=">
+</div>
+        <div class="header">
+            <div class="logo">
+                <img src="./Askari Bank_files/logo.png">
+            </div>
+        </div>
+        <div class="clr"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'form1', ['tpanelUpdate','panelUpdate'], [], ['btnCancel','btnCancel','btnLogin','btnLogin'], 90, '');
+//]]>
+</script>
+
+        <div id="panelUpdate">
+	
+                <div id="login-container">
+                    <div class="alert alert-error" id="divError" style="display: none">
+                        <span id="lblError"></span>
+                    </div>
+                    <div class="alert alert-success" id="divSuccess" style="display: none">
+                        <span id="lblSuccess"></span>
+                    </div>
+                    <div class="alert alert-info" id="divInfo" style="display: none">
+                        <span id="lblInfo"></span>
+                    </div>
+                    <div class="divform">
+                        <label class="lbl-set" for="username"><strong>Login ID:</strong></label>
+                        <input name="txtLoginId" type="text" id="txtLoginId" tabindex="1" placeholder="Enter login ID" class="clstxtLoginId">
+                        <label class="lbl-set" for="username"></label>
+                        <div class="lower1">
+                            <img src="./Askari Bank_files/CaptchaHandler.ashx" id="imgCaptcha" class="lower2">
+                            <img src="./Askari Bank_files/referesh.png" class="captchaReferesh" onclick="RefreshCaptcha();">
+                            <br>
+                            <input name="txtCaptcha" type="text" maxlength="5" id="txtCaptcha" tabindex="2" placeholder="Enter the text in the image (Case Sensitive)" class="clstxtCaptcha">
+                        </div>
+                        <label class="lbl-set" for="password"><strong>Password:</strong></label>
+                        <input name="txtPassword" type="password" id="txtPassword" tabindex="3" placeholder="Enter Password" class="clstxtPassword">
+                        <div id="lower">
+                            <label class="term-condition">
+                                <input id="chkTermCondition" type="checkbox" name="chkTermCondition">
+                            </label>
+                            <label>
+                                I have read and understood the 
+                                <br>
+                                <a id="hfTermCondition" href="http://akbl.com.pk/services/alternate-delivery-channels/mobile-banking/" target="_blank">Terms and Conditions and Security Alert Guidelines</a>
+                            </label>
+                            <br> 
+                            <input type="submit" name="btnLogin" value="Login" onclick="var b = valLogin(); if (b) ShowLoader(); return b;" id="btnLogin" class="btn-login">
+                            <input type="submit" name="btnCancel" value="Cancel" onclick="return ShowLoader();" id="btnCancel" class="btn-login">
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            
+</div>
+        <div class="clr"></div>
+        <div class="footer_sub">
+            <p>
+                Copyrights
+                <span id="lblYear">2021</span>
+                All Rights Reserved.
+            </p>
+        </div>
+        <div class="modal-mask stripes"></div>
+        <div class="modal-popup newpopup">
+            <div class="model-close">x</div>
+            
+        </div>
+        <div id="divLoader" class="styleLoader" style="background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8); display: none;">
+            <div>
+                <img src="./Askari Bank_files/loader.gif" alt="Processing">
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    HideLoader();
+                });
+                var prm = Sys.WebForms.PageRequestManager.getInstance();
+                prm.add_initializeRequest(prm_InitializeRequest);
+                prm.add_endRequest(prm_EndRequest);
+                function prm_InitializeRequest(sender, args) {
+                    ShowLoader();
+                }
+                function prm_EndRequest(sender, args) {
+                    HideLoader();
+                }
+                function ShowLoader() {
+                    var panelProg = $get('divLoader');
+                    panelProg.style.display = '';
+                }
+                function HideLoader() {
+                    var panelProg = $get('divLoader');
+                    panelProg.style.display = 'none';
+                }
+            </script>
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+WebForm_AutoFocus('txtLoginId');//]]>
+</script>
+</form>
+
+
+</body></html>
